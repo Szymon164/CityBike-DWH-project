@@ -3,15 +3,15 @@
 ## Opis biznesowy
 ### Why
 
-*(Jakie korzyści będzie miał użytkownik z naszego projektu? / Jaka jest przyczyna powst ania projektu? / Jaki dostrzegamy problem i chcemy go rozwiązać?)*
+*(Jakie korzyści będzie miał użytkownik z naszego projektu? / Jaka jest przyczyna powstania projektu? / Jaki dostrzegamy problem i chcemy go rozwiązać?)*
 
 Hurtownia danych i system Bussiness Inteligence służący do prezentacji raportów to jedno z najlepszych narzędzi wspomagających podejmowanie strategicznych decyzji biznesowych.
 
 Dzięki zebraniu i uspójnieniu danych z różnych źródeł w bardzo prosty sposób można stworzyć raport i wizualzację która pomoże osobom decyzyjnym w dostrzeżeniu problemów w obecnym działaniu organizacji, czy też w podjęciu dezycji w jaki sposób rozwijać, czy też modyfikować działanie firmy.
 
-Ten sposób przechowywania danych jest również przyszłościoodporny, ponieważ system jest podzielony na warstwy. Zmiana w formacie źródłowym jednego zbioru wejściowego nie powoduje konieczności zmian całej hurtowni danych, lecz jedynie poprawkę w warstwie ETL. Podobnie w prosty sposób można zmienić dostawcę oprogramowania używanego w warstwie raportowania jeśli taka potrzeba zajdzie. 
+Ten sposób przechowywania danych jest również przystosowany do wprowadzania zmian w przyszłości, ponieważ system jest podzielony na warstwy. Zmiana w formacie źródłowym jednego zbioru wejściowego nie powoduje konieczności zmian całej hurtowni danych, lecz jedynie poprawkę w warstwie ETL. Podobnie w prosty sposób można zmienić dostawcę oprogramowania używanego w warstwie raportowania jeśli taka potrzeba zajdzie. 
 
-Projekt ten powstaje, aby w intuicyjny sposób umożliwić pracownikom organizacji przeglądanie danych (które i tak są już zbierane, w celu zapewnienia poprawności działania systemu) i wyciąganie z nich wniosków mających wpływ na zyski, czy też koszty utrzymania biznesu.
+Projekt ten powstaje, aby w intuicyjny sposób umożliwić pracownikom organizacji analizę danych (które i tak są już zbierane, w celu zapewnienia poprawności działania systemu) i wyciąganie z nich wniosków mających wpływ na zyski, koszty utrzymania biznesu lub ważne decyzje biznesowe.
 
 
 ### How
@@ -100,7 +100,7 @@ Drugie źródło danych, z którego korzystamy przy tworzeniu hurtowni to [api p
 
 ![Schemat hurtowni](dwh.png)
 
-- (opisać klucze obce) między którymi kolumnami są połączenia 
+Tabela faktów w naszej hurtowni będzie nazywać się *Hire Fact* Oprócz atrybutu faktów i miary będzie zawierać zdegenerowany wymiar użytkownika oraz klucze obce do tabel wymiarów. *StartStationId* oraz *EndStationId* wsakazują na wymiar stacji *Station_Dim*, który zawiera współrzędne geograficzne stacji. *BikeId* łączy tabele fatków z wymiarem *Bike_Dim* zawierającym typ wypożyczonego roweru.
 
 
 pomysły/pytania
