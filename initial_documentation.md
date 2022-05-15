@@ -44,6 +44,35 @@ Drugim źródłem informacji jest api zawierające historyczne dane pogodowe. Dz
 
 ## Opis danych
 
+Dane z pierwszego źródła to [pobrane z sieci pliki](https://citibikenyc.com/system-data) płaskie (jeden plik `.csv` odpowiada jednemu miesiącowi wypożyczeń). Każdy z nich zawiera następujące pola:
+
+- `tripduration` - długość wypożyczenia w sekundach
+- `starttime` - dokładna data i godzina wypożyczenia roweru
+- `stoptime` - dokładna data i godzina zwrócenia roweru
+- `start/stop station id` - identyfikator stacji wypożyczenia/zwrotu
+- `start/stop station name` - nazwa stacji wypożyczenia/zwrotu
+- `start/stop station latitude` - szerokość geograficzna stacji wypożyczenia/zwrotu
+- `start/stop station longitude` - długość geograficzna stacji wypożyczenia/zwrotu
+- `bikeid` - identyfikator roweru
+- `usertype` - typ użytkownika (okazjonalny lub subskrybent)
+- `birth year` - rok urodzenia użytkownika
+- `gender` - płeć podana przeż użytkownika
+
+Drugie źródło danych, z którego korzystamy przy tworzeniu hurtowni to [api pogodowe](https://www.visualcrossing.com/), dostarczające historyczne dane pogodowe. Api dostarcza bardzo dużo danych pogodowych, jednak nie korzystamy ze wszystkich kolumn. Poniżej przedstawiamy te, z których korzystamy:
+
+- `name` - lokalizacja, której dotyczy wiersz
+- `datetime` - data, której dotyczy dany wiersz
+- `temp` - średnia temperatura z danego dnia w stopniach celsjusza
+- `feelslike` - średnia odczuwalna temperatura z danego dnia
+- `precip` - ilość opadu w mm
+- `precipcover` - procent doby, w którym występował opad
+- `preciptype` - typ opadu (deszcz/śnieg/inne)
+- `windspeed` - prędkość wiatru
+- `cloudcover` - procent zachmurzenia nieba
+- `conditions` - słowny opis warunków atmosferycznych.
+
+
+
 ## Opis architektury
 ### Warstwy modelu
 
