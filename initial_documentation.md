@@ -78,6 +78,33 @@ Drugie źródło danych, z którego korzystamy przy tworzeniu hurtowni to [api p
 
 ![Schemat architektury](arch.png)
 
+(opis!)
+
+
 ### ETL
 
+
+* przekształcenia tabeli faktów:
+    - na podstawie pól startu i zwrotu roweru stworzenie pól typu int -> identyfikatorów daty, aby połączyć wymiar kalendarza (klucze obce)
+    - stworzenie nowej miarki: długość wycieczki: obliczane na podstawie współrzędnych stacji początkowej i końcowej
+    - przekształcenie kodu płci na tekst (1 -> Male, 2-> Female, 0 -> Unknown)
+* wyodrębnienie tabel wymiarowych:
+    - do wymiaru roweru stworzone pole typu roweru (elektryczny, tandem, zwykły) - nie ma tego w wersji danych z których korzystamy, więc ustalamy sztucznie na podstawie identyfikatora roweru - kończące się na 9 są elektryczne, a kończące się na 8 to tandemy, reszta zwykłe
+* stworzenie tabel wymiarowych na podstawie danych o rowerach
+    - a
+* stworzenie i przekształcenia tabeli wymiarowej z danych pogodowych
+    - a
+* (napisać o wymiarze użytkownika)
+
 ### Ostateczny (na ten moment) model hurtowni
+
+![Schemat hurtowni](dwh.png)
+
+- (opisać klucze obce) między którymi kolumnami są połączenia 
+
+
+pomysły/pytania
+
+do wymiaru stacji dzielnica
+czy jest sens pogodę co godzinę
+grad/inne opady jak do tego podejść
