@@ -45,8 +45,9 @@ Drugim źródłem informacji jest api zawierające historyczne dane pogodowe. Dz
 ## Opis danych
 
 ## Opis architektury
-
 ### Warstwy modelu
+
+![Schemat architektury](arch.png)
 
 ### ETL
 
