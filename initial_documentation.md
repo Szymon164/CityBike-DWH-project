@@ -17,14 +17,14 @@ Projekt ten powstaje, aby w intuicyjny sposób umożliwić pracownikom organizac
 ### How
 *(Co będzie prezentowane końcowemu użytkownikowi? / Co chcemy ułatwić?)*
 
-Końcowy użytkownik będzie miał dostęp do różnych raportów, dzięki czemu zrozumie w jaki sposób użytkownicy korzystają z systemu. Przykładowymi wizualizacjami, które mogą powstać z systemu są:
+Końcowy użytkownik będzie miał dostęp do różnych raportów, dzięki czemu zrozumie w jaki sposób użytkownicy korzystają z systemu. Wizualizacje, które mogą powstać z systemu pomogą klientowi odpowiedzieć na pytania:
 
-- liczba kilometrów przejechanych przez dany rower -> które pojazdy należy serwisować w pierwszej kolejności
-- z których stacji wypożycza się najwięcej rowerów? czy zmienia się to z godziną wypożyczenia? może z dniem tygodnia? pogodą? -> gdzie transportować rowery i w jakich ilościach, tak aby ich nie brakowało
-- jaki jest średni czas wypożyczenia roweru? czy zależy od lokalizacji? typu użytkownika -> pozwala na szacowanie liczby rowerów, które są używane w danej chwili, potrzebne do obiczenia wolumenu zakupu nowych pojazdów
-- w jakich godzinach użytkownicy korzystają z rowerów -> kiedy można zabrać rowery do serwisu
-- jakie odległości pokonują użytkownicy w zależności od typu roweru? -> może należy powiększyć flotę rowerów elektrycznych
-- ...
+- jaka jest liczba kilometrów przejechanych przez dany rower (wykres słupkowy top 100 rowerów)-> które pojazdy należy serwisować w pierwszej kolejności
+- z których stacji wypożycza się najwięcej rowerów? czy zmienia się to z godziną wypożyczenia? może z dniem tygodnia? pogodą? (hierarchiczna mapa z możliwością wyboru daty/okresu i pogody) -> gdzie transportować rowery i w jakich ilościach, tak aby ich nie brakowało
+- jaki jest średni czas wypożyczenia roweru? czy zależy od lokalizacji? typu użytkownika (wykres słupkowy) -> pozwala na szacowanie liczby rowerów, które są używane w danej chwili, potrzebne do obliczenia wolumenu zakupu nowych pojazdów
+- w jakich godzinach użytkownicy korzystają z rowerów (wykres słupkowy) -> kiedy można zabrać rowery do serwisu
+- jak zmienia się ilość wypożyczeń na przestrzeni tygodnia/miesiąca (wykres kaskadowy) -> jak bardzo święta i okresy wolne od pracy wpływają na zainteresowanie wypożyczeniem rowerów
+- jakie odległości pokonują użytkownicy w zależności od typu roweru? (wykres słupkowy)-> może należy powiększyć flotę rowerów elektrycznych
 
 
 ### What
@@ -99,6 +99,7 @@ W warstwie ETL będziemy wykonywać następujące przekształcenia:
     - do wymiaru roweru stworzone pole typu roweru (elektryczny, tandem, zwykły) - nie ma tego w wersji danych z których korzystamy, więc ustalamy sztucznie na podstawie identyfikatora roweru - kończące się na 9 są elektryczne, a kończące się na 8 to tandemy, reszta zwykłe
     - do wymiaru roweru dodajemy pole z datą ostatniego serwisowania (sztucznie generowana)
     - do wymiaru stacji przenosimy kolumny związane z jej nazwą oraz współrzędnymi geograficznymi
+    - do wymiaru stacji dodajemy kolumny `Road`, `Neighbourhood`, `Suburb` (generowane na podstawie współrzędnych za pomocą biblioteki `geopy`)
     - zaokrąglenie współrzędnych geograficznych do 5 miejsc po przecinku (w danych nie zawsze spójnie) -> dokładność ok. 1 m
 * stworzenie i przekształcenia tabeli wymiarowej z danych pogodowych
     - wysłanie zapytania do api i wczytanie danych z otrzymanego pliku `.json`
