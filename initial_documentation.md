@@ -78,8 +78,11 @@ Drugie źródło danych, z którego korzystamy przy tworzeniu hurtowni to [api p
 
 ![Schemat architektury](arch.png)
 
-(opis!)
+Architektura naszego rozwiązania składa się z trzech głównych warstw:
 
+* **Warstwa przetwarzania danych** - jej zadaniem jest zebranie danych z różnych źródeł, uspójnienie ich oraz przetransformowanie do oczekiwanej postaci wyjściowej oraz załadownanie właściwych wynikowych tabel do hurtowni danych. Przygotowana zostanie w narzędziu SQL Server Integration Services (dokładniejszy opis w [sekcji ETL](#etl)).
+* **Warstwa hurtowni danych** - odpowiada za przygotowany model hurtowni, jego implementację. Przechowuje i agreguje dane potrzebne do sporządzenia raportów w kolejnej warstwie. Przygotowana w MS SQL Server, z użyciem SQL Server Management Studio (dokładniejszy opis w [sekcji model hurtowni](#ostateczny-na-ten-moment-model-hurtowni)).
+* **Warstwa raportowania** - jej celem jest prezentacja użytkownikom końcowym raportów i wizualizacji, na podstawie których mogą podejmować decyzje. Przygotowana zostanie w Tableau.
 
 ### ETL
 
