@@ -103,17 +103,17 @@ W warstwie ETL będziemy wykonywać następujące przekształcenia:
     - rozdzielenie kolumny `preciptype`, która ma wylistowane rodzaje opadów w ciągu danego dnia na trzy kolumny `IsRain`, `IsSnow`, `IsOtherPrecipitation`, które mówią czy w danym dniu występował opad tego rodzaju
     - połączenie kluczem obcym (datą w formacie `int`) wymiaru pogody z tabelą faktów.
 
-
- (napisać o wymiarze użytkownika)
-
 ### Ostateczny (na ten moment) model hurtowni
 
 ![Schemat hurtowni](dwh.png)
 
-Tabela faktów w naszej hurtowni będzie nazywać się *Hire Fact* Oprócz atrybutu faktów i miary będzie zawierać zdegenerowany wymiar użytkownika oraz klucze obce do tabel wymiarów. *StartStationId* oraz *EndStationId* wsakazują na wymiar stacji *Station_Dim*, który zawiera współrzędne geograficzne stacji. *BikeId* łączy tabele fatków z wymiarem *Bike_Dim* zawierającym typ wypożyczonego roweru.
+Tabelą faktów w naszej hurtowni będzie `Hire_Fact`. Oprócz atrybutu faktów i dwóch miar będzie ona zawierać zdegenerowany wymiar użytkownika oraz klucze obce do tabel wymiarów. `StartStationId` oraz `EndStationId` wsakazują na wymiar stacji `Station_Dim`, który zawiera dodatkowo współrzędne geograficzne stacji oraz jej nazwę. `BikeId` łączy tabele fatków z wymiarem `Bike_Dim` zawierającym typ wypożyczonego roweru o oraz datę ostatniego serwisowania. Wymiar `Date_Dim` jest podłączony zarówno do daty wypożyczenia jak i zwrotu roweru. W przypadku wymiarów daty oraz stacji mamy więc do czynienia z role-playing dimension - są one połączone z tabelą faktową więcej niż jednym kluczem obcym. Wymiar `Weather_Dim` jest połączony z tabelą faktową przy użyciu pola `StartDateID`. Podjęliśmy taką decyzję, gdyż to pogoda w czasie wypożyczania roweru ma wpływ na decyzję użytkownika, a więc także na biznes. Zawiera on najważniejsze informacje pogodowe na temat najważniejszych czynników pogodowych, czyli temperatury, realnej i odczuwalnej, rodzaju i intensywności opadów, prędkości wiatru i zachmurzenia.
+
+Ze względu na specyfikę danych wymiar użytkownika jest zdegenerowany - znajduje się w tabeli faktów. Ponieważ fakty są publikowane w internecie, muszą być anonimizowane. Gdyby hurtownia powstawała we współpracy z firmą, z tych pól mógłby powstać osobny wymiar.
 
 
-pomysły/pytania
+
+## pomysły/pytania
 
 - do wymiaru stacji dzielnica
 - czy jest sens pogodę co godzinę
