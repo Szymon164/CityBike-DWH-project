@@ -83,18 +83,28 @@ Drugie źródło danych, z którego korzystamy przy tworzeniu hurtowni to [api p
 
 ### ETL
 
+W warstwie ETL będziemy wykonywać następujące przekształcenia:
 
-* przekształcenia tabeli faktów:
-    - na podstawie pól startu i zwrotu roweru stworzenie pól typu int -> identyfikatorów daty, aby połączyć wymiar kalendarza (klucze obce)
+* Wczytanie danych dotyczących wypożyczeń z plików płaskich `.csv`
+* Zmiana nazw kolumn tak, aby dokładnie opisywały, co zawierają (np. `feelslike` -> `FeelsLikeTemperature`, `lat` -> `Latitude` itd.)
+* Ujednolicenie stylu nazewnictwa kolumn (zdecydowaliśmy się na PascalCase)
+* Przekształcenia tabeli faktów:
+    - na podstawie pól startu i zwrotu roweru stworzenie pól typu `int` -> identyfikatorów daty, aby połączyć wymiar kalendarza (klucze obce)
     - stworzenie nowej miarki: długość wycieczki: obliczane na podstawie współrzędnych stacji początkowej i końcowej
-    - przekształcenie kodu płci na tekst (1 -> Male, 2-> Female, 0 -> Unknown)
-* wyodrębnienie tabel wymiarowych:
+    - przekształcenie kodu płci na tekst (1 -> "Male", 2-> "Female", 0 -"> Unknown")
+*   stworzenie tabel wymiarowych na podstawie danych o rowerach
     - do wymiaru roweru stworzone pole typu roweru (elektryczny, tandem, zwykły) - nie ma tego w wersji danych z których korzystamy, więc ustalamy sztucznie na podstawie identyfikatora roweru - kończące się na 9 są elektryczne, a kończące się na 8 to tandemy, reszta zwykłe
-* stworzenie tabel wymiarowych na podstawie danych o rowerach
-    - a
+    - do wymiaru roweru dodajemy pole z datą ostatniego serwisowania (sztucznie generowana)
+    - do wymiaru stacji przenosimy kolumny związane z jej nazwą oraz współrzędnymi geograficznymi
+    - zaokrąglenie współrzędnych geograficznych do 5 miejsc po przecinku (w danych nie zawsze spójnie) -> dokładność ok. 1 m
 * stworzenie i przekształcenia tabeli wymiarowej z danych pogodowych
-    - a
-* (napisać o wymiarze użytkownika)
+    - wysłanie zapytania do api i wczytanie danych z otrzymanego pliku `.json`
+    - wybór najważniejszych kolumn (tych opisanych w sekcji [opis danych](#opis-danych)), zignorowanie pozostałych
+    - rozdzielenie kolumny `preciptype`, która ma wylistowane rodzaje opadów w ciągu danego dnia na trzy kolumny `IsRain`, `IsSnow`, `IsOtherPrecipitation`, które mówią czy w danym dniu występował opad tego rodzaju
+    - połączenie kluczem obcym (datą w formacie `int`) wymiaru pogody z tabelą faktów.
+
+
+ (napisać o wymiarze użytkownika)
 
 ### Ostateczny (na ten moment) model hurtowni
 
@@ -105,6 +115,6 @@ Tabela faktów w naszej hurtowni będzie nazywać się *Hire Fact* Oprócz atryb
 
 pomysły/pytania
 
-do wymiaru stacji dzielnica
-czy jest sens pogodę co godzinę
-grad/inne opady jak do tego podejść
+- do wymiaru stacji dzielnica
+- czy jest sens pogodę co godzinę
+- grad/inne opady jak do tego podejść
