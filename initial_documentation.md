@@ -17,7 +17,7 @@ Projekt ten powstaje, aby w intuicyjny sposób umożliwić pracownikom organizac
 ### How
 *(Co będzie prezentowane końcowemu użytkownikowi? / Co chcemy ułatwić?)*
 
-Końcowy użytkownik będzie miał dostęp do różnych raportów, dzięki czemu zrozumie w jaki sposób użytkownicy korzystają z systemu. Wizualizacje, które mogą powstać z systemu pomogą klientowi odpowiedzieć na pytania:
+Końcowy użytkownik będzie miał dostęp do różnych raportów, dzięki czemu zrozumie w jaki sposób użytkownicy korzystają z systemu. Wizualizacje, które mogą powstać z systemu, pomogą klientowi odpowiedzieć na pytania:
 
 - jaka jest liczba kilometrów przejechanych przez dany rower (wykres słupkowy top 100 rowerów)-> które pojazdy należy serwisować w pierwszej kolejności
 - z których stacji wypożycza się najwięcej rowerów? czy zmienia się to z godziną wypożyczenia? może z dniem tygodnia? pogodą? (hierarchiczna mapa z możliwością wyboru daty/okresu i pogody) -> gdzie transportować rowery i w jakich ilościach, tak aby ich nie brakowało
@@ -39,7 +39,9 @@ W ramach projektu analizujemy wystawione publicznie dane raportowe dotyczące wy
 
 W przypadku, gdyby rozwiązanie powstawało w porozumieniu z klientem, dane mogłyby być odświeżane częściej niż co miesiąc z transakcyjnej bazy danych (na przykład co tydzień - miesiąc w sezonie rowerowym to dość długo -> mało czasu na decyzje). Wtedy również rozwiązalibyśmy problem braku przypisania wypożyczenia do konkretnego użytkownika - w danych publicznych ta informacja musiała zostać usunięta, w celu zachowania anonimowości klientów, ale w hurtowni danych pozwoliłaby na jeszcze dogłębniejsze analizy - na przykład, czy któś nie korzysta z systemu w sposób niezgodny z regulminem, albo opracowanie zniżek dla użytkowników korzystających z systemu w sposób regularny.
 
-Drugim źródłem informacji jest api zawierające historyczne dane pogodowe. Dzięki niemu uzyskujemy jeszcze bardziej dogłębne informacje - jak warunki pogodowe wpływają na korzystanie z systemu przez użytkowników. 
+Drugim źródłem informacji jest api zawierające historyczne dane pogodowe. Dzięki niemu uzyskujemy informacje jak warunki pogodowe wpływają na korzystanie z systemu przez użytkowników. 
+
+Dodatkowo używając geograficznego api będziemy w stanie dodać atrybuty dla stacji, co pozwoli lepiej zrozumieć jak lokalizacja wpływa na wyporzyczenia rowerów.
 
 
 ## Opis danych
