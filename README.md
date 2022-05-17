@@ -1,6 +1,6 @@
 # Hurtownie danych 2022L
 ## Projekt zaliczeniowy
-[śmieszna nazwa zespołu]: **Szymon Rećko, Mikołaj Spytek**
+śmieszna nazwa zespołu: **Szymon Rećko, Mikołaj Spytek**
 
 Celem projektu jest stworzenie hurtowni danych dla firmy zarządzającej systemem rowerów miejskich w Nowym Jorku. 
 
