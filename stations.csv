@@ -1,0 +1,788 @@
+,StationID,StationName,Latitude,Longitude,Suburb,Road,Neighborhood
+0,72.0,W 52 St & 11 Ave,40.7673,-73.9939,Manhattan,West 52nd Street,Hell's Kitchen
+1,79.0,Franklin St & W Broadway,40.7191,-74.0067,,Franklin Street,Tribeca
+2,82.0,St James Pl & Pearl St,40.7112,-74.0002,Manhattan,Pearl Street,Two Bridges
+3,83.0,Atlantic Ave & Fort Greene Pl,40.6838,-73.9763,Brooklyn,Atlantic Avenue,
+4,116.0,W 17 St & 8 Ave,40.7418,-74.0015,,West 17th Street,Chelsea District
+5,119.0,Park Ave & St Edwards St,40.6961,-73.978,Brooklyn,Park Avenue,
+6,120.0,Lexington Ave & Classon Ave,40.6868,-73.9593,Brooklyn,Classon Avenue,
+7,127.0,Barrow St & Hudson St,40.7317,-74.0067,,Barrow Street,West Village
+8,128.0,MacDougal St & Prince St,40.7271,-74.003,,MacDougal Street,SoHo
+9,143.0,Clinton St & Joralemon St,40.6924,-73.9934,Brooklyn,Clinton Street,Brooklyn Heights
+10,144.0,Nassau St & Navy St,40.6984,-73.9807,Brooklyn,Navy Street,
+11,146.0,Hudson St & Reade St,40.7163,-74.0091,,Hudson Street,Tribeca
+12,150.0,E 2 St & Avenue C,40.7209,-73.9809,Manhattan,East 2nd Street,East Village
+13,151.0,Cleveland Pl & Spring St,40.7221,-73.9972,Manhattan,Lafayette Street,Little Italy
+14,157.0,Henry St & Atlantic Ave,40.6909,-73.9961,Brooklyn,Henry Street,Brooklyn Heights
+15,161.0,LaGuardia Pl & W 3 St,40.7292,-73.9981,,Washington Square North,Greenwich Village
+16,164.0,E 47 St & 2 Ave,40.7532,-73.9703,,East 47th Street,Turtle Bay
+17,167.0,E 39 St & 3 Ave,40.7489,-73.976,Manhattan,East 39th Street,Murray Hill
+18,168.0,W 18 St & 6 Ave,40.7397,-73.9946,,West 18th Street,Manhattan Community Board 5
+19,173.0,Broadway & W 49 St,40.7607,-73.9845,,Broadway,
+20,174.0,E 25 St & 1 Ave,40.7382,-73.9774,,East 25th Street,Kips Bay
+21,195.0,Liberty St & Broadway,40.7091,-74.0104,Manhattan,Liberty Street,
+22,212.0,W 16 St & The High Line,40.7433,-74.0068,,West 16th Street,Chelsea District
+23,216.0,Columbia Heights & Cranberry St,40.7004,-73.9955,Brooklyn,Brooklyn-Queens Expressway,Brooklyn Heights
+24,217.0,Old Fulton St,40.7028,-73.9938,Brooklyn,Old Fulton Street,
+25,223.0,W 13 St & 7 Ave,40.7378,-73.9999,,West 13th Street,Greenwich Village
+26,224.0,Spruce St & Nassau St,40.7115,-74.0055,,Pace Plaza,Financial District
+27,228.0,E 48 St & 3 Ave,40.7546,-73.9719,,East 48th Street,Turtle Bay
+28,229.0,Great Jones St,40.7274,-73.9938,,Great Jones Street,NoHo
+29,236.0,St Marks Pl & 2 Ave,40.7284,-73.9871,Manhattan,Saint Mark's Place,East Village
+30,237.0,E 11 St & 2 Ave,40.7305,-73.9867,Manhattan,East 11th Street,East Village
+31,238.0,Bank St & Washington St,40.7362,-74.0086,,Bank Street,Manhattan Community Board 2
+32,239.0,Willoughby St & Fleet St,40.692,-73.9813,Brooklyn,Willoughby Street,
+33,241.0,DeKalb Ave & S Portland Ave,40.6898,-73.9749,Brooklyn,DeKalb Avenue,Fort Greene
+34,242.0,Carlton Ave & Flushing Ave,40.6978,-73.9737,Brooklyn,Carlton Avenue,
+35,243.0,Fulton St & Rockwell Pl,40.6884,-73.9795,Brooklyn,Fulton Street,
+36,244.0,Willoughby Ave & Hall St,40.692,-73.9654,Brooklyn,Willoughby Avenue,
+37,245.0,Myrtle Ave & St Edwards St,40.6933,-73.977,Brooklyn,Myrtle Avenue,
+38,247.0,Perry St & Bleecker St,40.7354,-74.0048,,Perry Street,Manhattan Community Board 2
+39,248.0,Laight St & Hudson St,40.7219,-74.0077,,Laight Street,Tribeca
+40,249.0,Harrison St & Hudson St,40.7187,-74.009,,Harrison Street,Tribeca
+41,251.0,Mott St & Prince St,40.7232,-73.9948,,Mott Street,Little Italy
+42,252.0,MacDougal St & Washington Sq,40.7323,-73.9985,,MacDougal Street,Greenwich Village
+43,254.0,W 11 St & 6 Ave,40.7353,-73.998,,West 11th Street,Greenwich Village
+44,257.0,Lispenard St & Broadway,40.7194,-74.0025,,Lispenard Street,Tribeca
+45,258.0,DeKalb Ave & Vanderbilt Ave,40.6894,-73.9689,Brooklyn,DeKalb Avenue,Fort Greene
+46,259.0,South St & Whitehall St,40.7012,-74.0123,,South Street,Financial District
+47,260.0,Broad St & Bridge St,40.7037,-74.0117,,Broad Street,Financial District
+48,261.0,Johnson St & Gold St,40.6947,-73.9836,Brooklyn,Flatbush Avenue Extension,
+49,262.0,Washington Park,40.6918,-73.9737,Brooklyn,Washington Park,
+50,264.0,Maiden Ln & Pearl St,40.7071,-74.0073,,Maiden Lane,Financial District
+51,265.0,Stanton St & Chrystie St,40.7223,-73.9915,Manhattan,Stanton Street,Lower East Side
+52,266.0,Avenue D & E 8 St,40.7237,-73.9757,,East 8th Street,
+53,267.0,Broadway & W 36 St,40.751,-73.9877,,Broadway,Garment District
+54,268.0,Howard St & Centre St,40.7191,-73.9997,,Howard Street,Little Italy
+55,270.0,Adelphi St & Myrtle Ave,40.6931,-73.9718,Brooklyn,Adelphi Street,
+56,274.0,Lafayette Ave & Fort Greene Pl,40.6869,-73.9767,Brooklyn,Lafayette Avenue,
+57,275.0,Washington Ave & Greene Ave,40.6865,-73.9656,Brooklyn,Washington Avenue,
+58,276.0,Duane St & Greenwich St,40.7175,-74.0105,,Duane Street,Tribeca
+59,278.0,Concord St & Bridge St,40.6977,-73.9848,Brooklyn,Concord Street,
+60,279.0,Peck Slip & Front St,40.7079,-74.0017,,Peck Slip,Financial District
+61,280.0,E 10 St & 5 Ave,40.7333,-73.9951,,East 10th Street,Greenwich Village
+62,281.0,Grand Army Plaza & Central Park S,40.7644,-73.9737,,Grand Army Plaza,Manhattan Community Board 5
+63,282.0,Kent Ave & S 11 St,40.7076,-73.9684,Brooklyn,Kent Avenue,
+64,284.0,Greenwich Ave & 8 Ave,40.739,-74.0026,,Greenwich Avenue,Manhattan Community Board 2
+65,285.0,Broadway & E 14 St,40.7345,-73.9907,,Broadway,East Village
+66,289.0,Monroe St & Classon Ave,40.6846,-73.9588,Brooklyn,Monroe Street,
+67,291.0,Madison St & Montgomery St,40.7131,-73.9848,Manhattan,Madison Street,Lower East Side
+68,293.0,Lafayette St & E 8 St,40.7302,-73.991,,Lafayette Street,NoHo
+69,295.0,Pike St & E Broadway,40.7141,-73.9929,,Pike Street,Chinatown
+70,296.0,Division St & Bowery,40.7141,-73.997,Manhattan,Division Street,
+71,297.0,E 15 St & 3 Ave,40.7342,-73.9869,,East 15th Street,Gramercy
+72,298.0,3 Ave & Schermerhorn St,40.6868,-73.9797,Brooklyn,3 Avenue,
+73,301.0,E 2 St & Avenue B,40.7222,-73.9837,Manhattan,East 2nd Street,East Village
+74,302.0,Avenue D & E 3 St,40.7208,-73.9779,Manhattan,Avenue D,
+75,303.0,Mercer St & Spring St,40.7236,-73.9995,,Mercer Street,SoHo
+76,304.0,Broadway & Battery Pl,40.7046,-74.0136,,Battery Place,Financial District
+77,305.0,E 58 St & 3 Ave,40.761,-73.9672,Manhattan,East 58th Street,Midtown East
+78,307.0,Canal St & Rutgers St,40.7143,-73.9899,Manhattan,Canal Street,Lower East Side
+79,308.0,St James Pl & Oliver St,40.7131,-73.9985,,Pearl Street,Civic Center
+80,309.0,Murray St & West St,40.715,-74.013,,Murray Street,Tribeca
+81,310.0,State St & Smith St,40.6893,-73.9891,Brooklyn,Atlantic Avenue,Boerum Hill
+82,311.0,Norfolk St & Broome St,40.7172,-73.988,Manhattan,Norfolk Street,Lower East Side
+83,312.0,Allen St & Stanton St,40.7221,-73.9891,Manhattan,Allen Street,Lower East Side
+84,313.0,Washington Ave & Park Ave,40.6961,-73.9675,Brooklyn,Washington Avenue,
+85,314.0,Cadman Plaza West & Montague St,40.6938,-73.9905,Brooklyn,Montague Street,
+86,315.0,South St & Gouverneur Ln,40.7036,-74.0067,,Pier 11,Financial District
+87,316.0,Fulton St & William St,40.7096,-74.0065,,Fulton Street,Financial District
+88,317.0,E 6 St & Avenue B,40.7245,-73.9819,Manhattan,Avenue B,East Village
+89,319.0,Fulton St & Broadway,40.7111,-74.0094,,Fulton Street,Financial District
+90,320.0,Leonard St & Church St,40.7176,-74.0055,,Leonard Street,Tribeca
+91,321.0,Cadman Plaza E & Red Cross Pl,40.6999,-73.9897,Brooklyn,Cadman Plaza East,
+92,323.0,Lawrence St & Willoughby St,40.6924,-73.9863,Brooklyn,Lawrence Street,Downtown Brooklyn
+93,324.0,DeKalb Ave & Hudson Ave,40.6899,-73.981,Brooklyn,DeKalb Avenue,
+94,325.0,E 19 St & 3 Ave,40.7362,-73.9847,Manhattan,3rd Avenue,
+95,326.0,E 11 St & 1 Ave,40.7295,-73.9843,Manhattan,East 11th Street,East Village
+96,327.0,Vesey Pl & River Terrace,40.7153,-74.0166,Manhattan,Vesey Place,Battery Park City
+97,328.0,Watts St & Greenwich St,40.7241,-74.0097,,Watts Street,Tribeca
+98,330.0,Reade St & Broadway,40.7145,-74.0056,,Reade Street,Civic Center
+99,331.0,Pike St & Monroe St,40.7117,-73.9919,Manhattan,Pike Street,Two Bridges
+100,332.0,Cherry St,40.7122,-73.9795,Manhattan,Cherry Street,
+101,334.0,W 20 St & 7 Ave,40.7424,-73.9973,,West 20th Street,Chelsea District
+102,335.0,Washington Pl & Broadway,40.729,-73.994,,Washington Square North,Greenwich Village
+103,336.0,Sullivan St & Washington Sq,40.7305,-73.9991,,Washington Square North,Greenwich Village
+104,337.0,Old Slip & Front St,40.7038,-74.0084,,Old Slip,Financial District
+105,339.0,Avenue D & E 12 St,40.7258,-73.9742,Manhattan,Avenue D,
+106,340.0,Madison St & Clinton St,40.7127,-73.9878,Manhattan,Madison Street,Two Bridges
+107,341.0,Stanton St & Mangin St,40.7178,-73.9763,,Stanton Street,
+108,342.0,Columbia St & Rivington St,40.7174,-73.9802,Manhattan,Columbia Street,
+109,343.0,Clinton Ave & Flushing Ave,40.6979,-73.9699,Brooklyn,Flushing Avenue,
+110,344.0,Monroe St & Bedford Ave,40.6851,-73.9538,Brooklyn,Monroe Street,
+111,346.0,Bank St & Hudson St,40.7365,-74.0062,,Bank Street,Manhattan Community Board 2
+112,347.0,Greenwich St & W Houston St,40.7288,-74.0086,,Greenwich Street,Manhattan Community Board 2
+113,349.0,Rivington St & Ridge St,40.7185,-73.9833,Manhattan,Rivington Street,
+114,350.0,Clinton St & Grand St,40.7156,-73.987,Manhattan,Clinton Street,Lower East Side
+115,351.0,Front St & Maiden Ln,40.7053,-74.0061,,Pine Street,Financial District
+116,353.0,S Portland Ave & Hanson Pl,40.6854,-73.9743,Brooklyn,South Portland Avenue,
+117,354.0,Emerson Pl & Myrtle Ave,40.6936,-73.9622,Brooklyn,Emerson Place,
+118,355.0,Bayard St & Baxter St,40.716,-73.9997,,Bayard Street,Chinatown
+119,356.0,Bialystoker Pl & Delancey St,40.7162,-73.9826,Manhattan,Willett Street,
+120,358.0,Christopher St & Greenwich St,40.7329,-74.0071,,Christopher Street,Manhattan Community Board 2
+121,359.0,E 47 St & Park Ave,40.7551,-73.975,,Vanderbilt Avenue,Midtown East
+122,360.0,William St & Pine St,40.7072,-74.0089,,Chase Manhattan Plaza,Financial District
+123,361.0,Allen St & Hester St,40.7161,-73.9919,,Allen Street,Chinatown
+124,362.0,Broadway & W 37 St,40.7517,-73.9875,,Broadway,Garment District
+125,363.0,West Thames St,40.7083,-74.0171,Manhattan,West Thames Street,Battery Park City
+126,364.0,Lafayette Ave & Classon Ave,40.689,-73.9602,Brooklyn,Lafayette Avenue,
+127,365.0,Fulton St & Grand Ave,40.6822,-73.9615,Brooklyn,Fulton Street,
+128,366.0,Clinton Ave & Myrtle Ave,40.6933,-73.9689,Brooklyn,Clinton Avenue,
+129,368.0,Carmine St & 6 Ave,40.7304,-74.0021,,Carmine Street,West Village
+130,369.0,Washington Pl & 6 Ave,40.7322,-74.0003,,West Washington Place,Greenwich Village
+131,372.0,Franklin Ave & Myrtle Ave,40.6945,-73.958,Brooklyn,Franklin Avenue,
+132,373.0,Willoughby Ave & Walworth St,40.6933,-73.9538,Brooklyn,Sandford Street,
+133,376.0,John St & William St,40.7086,-74.0072,,John Street,Financial District
+134,377.0,6 Ave & Canal St,40.7224,-74.0057,,Sullivan Street,Manhattan Community Board 2
+135,379.0,W 31 St & 7 Ave,40.7492,-73.9916,,7th Avenue,Chelsea District
+136,380.0,W 4 St & 7 Ave S,40.734,-74.0029,,West 4th Street,Manhattan Community Board 2
+137,382.0,University Pl & E 14 St,40.7349,-73.992,,University Place,Greenwich Village
+138,383.0,Greenwich Ave & Charles St,40.7352,-74.0003,,Greenwich Avenue,Manhattan Community Board 2
+139,386.0,Centre St & Worth St,40.7149,-74.0023,,Centre Street,Civic Center
+140,387.0,Centre St & Chambers St,40.7127,-74.0046,,Brooklyn Bridge,Civic Center
+141,388.0,W 26 St & 10 Ave,40.7497,-74.003,,West 26th Street,Chelsea District
+142,389.0,Broadway & Berry St,40.7104,-73.9653,Brooklyn,Broadway,
+143,390.0,Duffield St & Willoughby St,40.6922,-73.9843,Brooklyn,Duffield Street,Downtown Brooklyn
+144,391.0,Clark St & Henry St,40.6976,-73.9934,Brooklyn,Monroe Place,Brooklyn Heights
+145,392.0,Jay St & Tech Pl,40.6951,-73.9872,Brooklyn,Tillary Street,Downtown Brooklyn
+146,393.0,E 5 St & Avenue C,40.723,-73.98,Manhattan,East 5th Street,East Village
+147,394.0,E 9 St & Avenue C,40.7252,-73.9777,Manhattan,East 9th Street,East Village
+148,396.0,Lefferts Pl & Franklin Ave,40.6803,-73.9558,Brooklyn,Lefferts Place,
+149,397.0,Fulton St & Clermont Ave,40.6842,-73.9692,Brooklyn,Fulton Street,Fort Greene
+150,398.0,Atlantic Ave & Furman St,40.6917,-74.0,Brooklyn,Columbia Street Greenway,
+151,399.0,Lafayette Ave & St James Pl,40.6885,-73.9648,Brooklyn,Saint James Place,
+152,400.0,Pitt St & Stanton St,40.7193,-73.9818,Manhattan,Stanton Street,
+153,401.0,Allen St & Rivington St,40.7202,-73.99,Manhattan,Allen Street,Lower East Side
+154,402.0,Broadway & E 22 St,40.7403,-73.9896,,Broadway,Flatiron District
+155,403.0,E 2 St & 2 Ave,40.725,-73.9907,Manhattan,2nd Avenue,East Village
+156,405.0,Washington St & Gansevoort St,40.7393,-74.0081,,Washington Street,West Village
+157,406.0,Hicks St & Montague St,40.6951,-73.996,Brooklyn,Hicks Street,Brooklyn Heights
+158,408.0,Market St & Cherry St,40.7108,-73.994,,Market Street,Chinatown
+159,410.0,Suffolk St & Stanton St,40.7207,-73.9852,Manhattan,Suffolk Street,Lower East Side
+160,411.0,E 6 St & Avenue D,40.7223,-73.9767,Manhattan,East 6th Street,
+161,412.0,Forsyth St & Canal St,40.7158,-73.9942,,Forsyth Street,Chinatown
+162,415.0,Pearl St & Hanover Square,40.7047,-74.0093,,Pearl Street,Financial District
+163,416.0,Cumberland St & Lafayette Ave,40.6875,-73.9727,Brooklyn,Cumberland Street,
+164,417.0,Barclay St & Church St,40.7129,-74.0102,,Barclay Street,Tribeca
+165,418.0,Front St & Gold St,40.7022,-73.9826,Brooklyn,Gold Street,
+166,419.0,Carlton Ave & Park Ave,40.6958,-73.9736,Brooklyn,Carlton Avenue,
+167,420.0,Clermont Ave & Lafayette Ave,40.6876,-73.9697,Brooklyn,Clermont Avenue,
+168,421.0,Clermont Ave & Park Ave,40.6957,-73.9713,Brooklyn,Clermont Avenue,
+169,422.0,W 59 St & 10 Ave,40.7705,-73.988,Manhattan,11th Avenue,Hell's Kitchen
+170,423.0,W 54 St & 9 Ave,40.7658,-73.9869,Manhattan,West 54th Street,Hell's Kitchen
+171,426.0,West St & Chambers St,40.7175,-74.0132,Manhattan,Hudson River Park Esplanade,Battery Park City
+172,427.0,Bus Slip & State St,40.7019,-74.0139,,Peter Minuit Plaza,Financial District
+173,432.0,E 7 St & Avenue A,40.7262,-73.9838,Manhattan,East 7th Street,East Village
+174,434.0,9 Ave & W 18 St,40.7432,-74.0037,,9th Avenue,Chelsea District
+175,435.0,W 21 St & 6 Ave,40.7417,-73.9942,,West 21st Street,Chelsea District
+176,436.0,Hancock St & Bedford Ave,40.6822,-73.954,Brooklyn,Jefferson Avenue,
+177,437.0,Macon St & Nostrand Ave,40.681,-73.95,Brooklyn,Macon Street,
+178,438.0,St Marks Pl & 1 Ave,40.7278,-73.9856,Manhattan,Saint Mark's Place,East Village
+179,439.0,E 4 St & 2 Ave,40.7263,-73.9898,,East 4th Street,NoHo Historic District
+180,440.0,E 45 St & 3 Ave,40.7526,-73.9728,,East 45th Street,Turtle Bay
+181,441.0,E 52 St & 2 Ave,40.756,-73.9674,,East 52nd Street,Turtle Bay
+182,442.0,W 27 St & 7 Ave,40.7466,-73.9939,,West 27th Street,Chelsea District
+183,443.0,Bedford Ave & S 9 St,40.7085,-73.9641,Brooklyn,Bedford Avenue,
+184,445.0,E 10 St & Avenue A,40.7274,-73.9814,Manhattan,East 10th Street,East Village
+185,446.0,W 24 St & 7 Ave,40.7449,-73.9953,,7th Avenue,Chelsea
+186,447.0,8 Ave & W 52 St,40.7637,-73.9852,,8th Avenue,Hell's Kitchen
+187,448.0,W 37 St & 10 Ave,40.7566,-73.9979,Manhattan,West 37th Street,Hudson Yards
+188,450.0,W 49 St & 8 Ave,40.7623,-73.9879,Manhattan,West 49th Street,Hell's Kitchen
+189,453.0,W 22 St & 8 Ave,40.7448,-73.9992,,West 22nd Street,Chelsea District
+190,454.0,E 51 St & 1 Ave,40.7546,-73.9659,,East 51st Street,Turtle Bay
+191,455.0,1 Ave & E 44 St,40.75,-73.9691,,1st Avenue Tunnel,Turtle Bay
+192,456.0,E 53 St & Madison Ave,40.7597,-73.974,,East 53rd Street,Midtown East
+193,458.0,11 Ave & W 27 St,40.7514,-74.0052,,West 27th Street,Chelsea District
+194,459.0,W 20 St & 11 Ave,40.7467,-74.0078,,11th Avenue,Chelsea District
+195,460.0,S 4 St & Wythe Ave,40.7129,-73.9659,Brooklyn,South 4th Street,
+196,461.0,E 20 St & 2 Ave,40.7359,-73.9821,,East 20th Street,Gramercy
+197,462.0,W 22 St & 10 Ave,40.7469,-74.0045,,West 22nd Street,Chelsea District
+198,465.0,Broadway & W 41 St,40.7551,-73.9866,,West 41st Street,Garment District
+199,466.0,W 25 St & 6 Ave,40.744,-73.9914,,West 25th Street,Flatiron District
+200,467.0,Dean St & 4 Ave,40.6831,-73.979,Brooklyn,Atlantic Avenue,
+201,468.0,Broadway & W 56 St,40.7653,-73.9819,,West 56th Street,Manhattan Community Board 5
+202,469.0,Broadway & W 53 St,40.7634,-73.9827,,West 53rd Street,Manhattan Community Board 5
+203,470.0,W 20 St & 8 Ave,40.7435,-74.0,,West 20th Street,Chelsea District
+204,471.0,Grand St & Havemeyer St,40.7129,-73.957,Brooklyn,Grand Street,
+205,472.0,E 32 St & Park Ave,40.7457,-73.9819,,Park Avenue,Manhattan Community Board 5
+206,473.0,Rivington St & Chrystie St,40.7211,-73.9919,Manhattan,Forsyth Street,Lower East Side
+207,474.0,5 Ave & E 29 St,40.7452,-73.9868,,5th Avenue,NoMad
+208,476.0,E 31 St & 3 Ave,40.7439,-73.9797,,East 31st Street,Kips Bay
+209,477.0,W 41 St & 8 Ave,40.7564,-73.99,,West 41st Street,Garment District
+210,478.0,11 Ave & W 41 St,40.7603,-73.9988,Manhattan,11th Avenue,
+211,479.0,9 Ave & W 45 St,40.7602,-73.9913,Manhattan,9th Avenue,Hell's Kitchen
+212,480.0,W 53 St & 10 Ave,40.7667,-73.9906,,West 53rd Street,Theater District
+213,481.0,S 3 St & Bedford Ave,40.7126,-73.9626,Brooklyn,Bedford Avenue,
+214,482.0,W 15 St & 7 Ave,40.7394,-73.9993,,West 15th Street,Chelsea District
+215,483.0,E 12 St & 3 Ave,40.7322,-73.9889,,East 12th Street,East Village
+216,484.0,W 44 St & 5 Ave,40.755,-73.9801,,5th Avenue,Manhattan Community Board 5
+217,485.0,W 37 St & 5 Ave,40.7504,-73.9834,,West 37th Street,Manhattan Community Board 5
+218,486.0,Broadway & W 29 St,40.7462,-73.9886,,Broadway,Midtown South
+219,487.0,E 20 St & FDR Drive,40.7331,-73.9757,Manhattan,East 20th Street service road,
+220,489.0,10 Ave & W 28 St,40.7507,-74.0018,,10th Avenue,Chelsea District
+221,490.0,8 Ave & W 33 St,40.7516,-73.9939,,West 34th Street,Manhattan Community Board 5
+222,491.0,E 24 St & Park Ave S,40.741,-73.986,,Madison Avenue,Flatiron District
+223,492.0,W 33 St & 7 Ave,40.7502,-73.9909,,West 33rd Street,Chelsea District
+224,493.0,W 45 St & 6 Ave,40.7568,-73.9829,,West 45th Street,
+225,494.0,W 26 St & 8 Ave,40.7473,-73.9972,,West 26th Street,
+226,495.0,W 47 St & 10 Ave,40.7627,-73.993,,West 47th Street,Theater District
+227,496.0,E 16 St & 5 Ave,40.7373,-73.9924,,East 16th Street,Manhattan Community Board 5
+228,497.0,E 17 St & Broadway,40.737,-73.9901,,East 17th Street,Union Square
+229,499.0,Broadway & W 60 St,40.7692,-73.9819,Manhattan,Broadway,Columbus Circle
+230,500.0,Broadway & W 51 St,40.7623,-73.9834,,Broadway,Manhattan Community Board 5
+231,501.0,FDR Drive & E 35 St,40.7442,-73.9712,Manhattan,East River Esplanade,
+232,502.0,Henry St & Grand St,40.7142,-73.9813,Manhattan,Henry Street,
+233,503.0,E 20 St & Park Ave,40.7383,-73.9875,,East 20th Street,Flatiron District
+234,504.0,1 Ave & E 16 St,40.7322,-73.9817,,1st Avenue service road,Stuy Town
+235,505.0,6 Ave & W 33 St,40.749,-73.9885,,West 32nd Street,Herald Square
+236,507.0,E 25 St & 2 Ave,40.7391,-73.9797,,East 25th Street,Kips Bay
+237,508.0,W 46 St & 11 Ave,40.7634,-73.9967,Manhattan,West 46th Street,Hell's Kitchen
+238,513.0,W 56 St & 10 Ave,40.7683,-73.9886,,West 56th Street,Hell's Kitchen
+239,514.0,12 Ave & W 40 St,40.7609,-74.0028,Manhattan,Hudson River Park Esplanade,
+240,515.0,W 43 St & 10 Ave,40.7601,-73.9946,Manhattan,West 43rd Street,Hell's Kitchen
+241,516.0,E 47 St & 1 Ave,40.7521,-73.9678,,East 47th Street,Turtle Bay
+242,517.0,Pershing Square South,40.7516,-73.9779,,Park Avenue,Murray Hill
+243,518.0,E 39 St & 2 Ave,40.7478,-73.9734,Manhattan,East 39th Street,
+244,519.0,Pershing Square North,40.7519,-73.9777,,Park Avenue,Murray Hill
+245,520.0,W 52 St & 5 Ave,40.7599,-73.9765,,West 52nd Street,Manhattan Community Board 5
+246,522.0,E 51 St & Lexington Ave,40.7571,-73.9721,,Lexington Avenue,Midtown East
+247,523.0,W 38 St & 8 Ave,40.7547,-73.9914,,8th Avenue,Manhattan Community Board 5
+248,525.0,W 34 St & 11 Ave,40.7559,-74.0021,Manhattan,West 34th Street,
+249,526.0,E 33 St & 5 Ave,40.7477,-73.9849,,East 33rd Street,Manhattan Community Board 5
+250,528.0,2 Ave & E 31 St,40.7429,-73.9771,Manhattan,East 31st Street,
+251,529.0,W 42 St & 8 Ave,40.7576,-73.991,,8th Avenue,Theater District
+252,530.0,11 Ave & W 59 St,40.7715,-73.9905,Manhattan,11th Avenue,Hell's Kitchen
+253,531.0,Forsyth St & Broome St,40.7189,-73.9927,Manhattan,Broome Street,Lower East Side
+254,532.0,S 5 Pl & S 5 St,40.7105,-73.9609,Brooklyn,South 5th Place,
+255,533.0,Broadway & W 38 St,40.753,-73.9872,,Broadway,Garment District
+256,534.0,Water - Whitehall Plaza,40.7026,-74.0127,,Water Street,Financial District
+257,536.0,1 Ave & E 30 St,40.7414,-73.9754,,East 30th Street,Kips Bay
+258,539.0,Metropolitan Ave & Bedford Ave,40.7153,-73.9602,Brooklyn,Bedford Avenue,
+259,540.0,Lexington Ave & E 29 St,40.7431,-73.9822,,Lexington Avenue,Manhattan Community Board 5
+260,545.0,E 23 St & 1 Ave,40.7365,-73.9781,,East 23rd Street,Stuy Town
+261,546.0,E 30 St & Park Ave S,40.7444,-73.983,,East 30th Street,Manhattan Community Board 5
+262,2000.0,Front St & Washington St,40.7026,-73.9894,Brooklyn,Old Fulton Street,
+263,2002.0,Wythe Ave & Metropolitan Ave,40.7169,-73.9632,Brooklyn,Wythe Avenue,
+264,2003.0,1 Ave & E 18 St,40.7338,-73.9805,Manhattan,1st Avenue,
+265,2005.0,Railroad Ave & Kay Ave,40.7053,-73.971,Brooklyn,Railroad Avenue,
+266,2006.0,Central Park S & 6 Ave,40.7659,-73.9763,Manhattan,Central Park Outer Loop,
+267,2008.0,Little West St & 1 Pl,40.7057,-74.0168,Manhattan,1st Place,Battery Park City
+268,2009.0,Catherine St & Monroe St,40.7112,-73.9968,Manhattan,Catherine Street,Two Bridges
+269,2012.0,E 27 St & 1 Ave,40.7394,-73.9768,,East 27th Street,Kips Bay
+270,2017.0,E 43 St & 2 Ave,40.7502,-73.9712,Manhattan,East 42nd Street,Tudor City
+271,2021.0,W 45 St & 8 Ave,40.7593,-73.9886,Manhattan,West 45th Street,
+272,2022.0,E 60 St & York Ave,40.7591,-73.9592,Manhattan,York Avenue,
+273,2023.0,E 55 St & Lexington Ave,40.7597,-73.9703,,East 55th Street,Midtown East
+274,3002.0,South End Ave & Liberty St,40.7115,-74.0158,Manhattan,South End Avenue,Battery Park City
+275,3016.0,Kent Ave & N 7 St,40.7204,-73.9617,Brooklyn,Kent Avenue,
+276,3041.0,Kingston Ave & Herkimer St,40.6789,-73.9414,Brooklyn,Kingston Avenue,
+277,3042.0,Fulton St & Utica Ave,40.6794,-73.9299,Brooklyn,Fulton Street,
+278,3043.0,Lewis Ave & Decatur St,40.6815,-73.9349,Brooklyn,Lewis Avenue,
+279,3044.0,Albany Ave & Fulton St,40.68,-73.9385,Brooklyn,Albany Avenue,
+280,3046.0,Marcus Garvey Blvd & Macon St,40.6826,-73.938,Brooklyn,Marcus Garvey Boulevard,
+281,3047.0,Halsey St & Tompkins Ave,40.6824,-73.9441,Brooklyn,Halsey Street,
+282,3048.0,Putnam Ave & Nostrand Ave,40.684,-73.9498,Brooklyn,Putnam Avenue,
+283,3049.0,Cambridge Pl & Gates Ave,40.6849,-73.963,Brooklyn,Gates Avenue,
+284,3050.0,Putnam Ave & Throop Ave,40.6852,-73.9411,Brooklyn,Throop Avenue,
+285,3052.0,Lewis Ave & Madison St,40.6863,-73.9358,Brooklyn,Madison Street,
+286,3053.0,Marcy Ave & Lafayette Ave,40.6901,-73.9479,Brooklyn,Lafayette Avenue,
+287,3054.0,Greene Ave & Throop Ave,40.6895,-73.9421,Brooklyn,Greene Avenue,
+288,3055.0,Greene Ave & Nostrand Ave,40.6883,-73.9509,Brooklyn,Greene Avenue,
+289,3056.0,Kosciuszko St & Nostrand Ave,40.6907,-73.9513,Brooklyn,Kosciuszko Street,
+290,3057.0,Kosciuszko St & Tompkins Ave,40.6913,-73.9452,Brooklyn,Kosciuszko Street,
+291,3058.0,Lewis Ave & Kosciuszko St,40.6924,-73.9371,Brooklyn,Kosciuszko Street,
+292,3059.0,Pulaski St & Marcus Garvey Blvd,40.6934,-73.9399,Brooklyn,Pulaski Street,
+293,3060.0,Willoughby Ave & Tompkins Ave,40.6943,-73.9463,Brooklyn,Willoughby Avenue,
+294,3061.0,Throop Ave & Myrtle Ave,40.6962,-73.9437,Brooklyn,Throop Avenue,
+295,3062.0,Myrtle Ave & Marcy Ave,40.6954,-73.9495,Brooklyn,Myrtle Avenue,
+296,3063.0,Nostrand Ave & Myrtle Ave,40.6953,-73.9524,Brooklyn,Nostrand Avenue,
+297,3064.0,Myrtle Ave & Lewis Ave,40.6968,-73.9376,Brooklyn,Myrtle Avenue,
+298,3065.0,Union Ave & Wallabout St,40.7003,-73.9503,Brooklyn,Flushing Avenue,
+299,3066.0,Tompkins Ave & Hopkins St,40.6996,-73.9471,Brooklyn,Tompkins Avenue,
+300,3067.0,Broadway & Whipple St,40.7017,-73.9437,Brooklyn,Broadway,
+301,3068.0,Humboldt St & Varet St,40.7032,-73.9406,Brooklyn,Humboldt Street,
+302,3069.0,Lorimer St & Broadway,40.7041,-73.9482,Brooklyn,Throop Avenue,
+303,3070.0,McKibbin St & Manhattan Ave,40.7051,-73.9441,Brooklyn,McKibbin Street,
+304,3071.0,Boerum St & Broadway,40.7054,-73.9498,Brooklyn,Boerum Street,
+305,3072.0,Leonard St & Boerum St,40.7058,-73.9464,Brooklyn,Leonard Street,
+306,3074.0,Montrose Ave & Bushwick Ave,40.7077,-73.9402,Brooklyn,Montrose Avenue,
+307,3075.0,Division Ave & Marcy Ave,40.7071,-73.958,Brooklyn,Brooklyn-Queens Expressway,
+308,3076.0,Scholes St & Manhattan Ave,40.7087,-73.9449,Brooklyn,Scholes Street,
+309,3077.0,Stagg St & Union Ave,40.7088,-73.951,Brooklyn,Lithuania Square,
+310,3078.0,Broadway & Roebling St,40.7092,-73.9606,Brooklyn,Broadway,
+311,3080.0,S 4 St & Rodney St,40.7093,-73.9561,Brooklyn,South 4th Street,
+312,3081.0,Graham Ave & Grand St,40.7119,-73.944,Brooklyn,Graham Avenue,
+313,3082.0,Hope St & Union Ave,40.7117,-73.9514,Brooklyn,Union Avenue,
+314,3083.0,Bushwick Ave & Powers St,40.7125,-73.941,Brooklyn,Grand Street,
+315,3085.0,Roebling St & N 4 St,40.7147,-73.9574,Brooklyn,Conners Square,
+316,3086.0,Graham Ave & Conselyea St,40.7151,-73.9445,Brooklyn,Graham Avenue,
+317,3087.0,Metropolitan Ave & Meeker Ave,40.7141,-73.9523,Brooklyn,Metropolitan Avenue,
+318,3088.0,Union Ave & Jackson St,40.7161,-73.952,Brooklyn,Union Avenue,
+319,3092.0,Berry St & N 8 St,40.719,-73.9585,Brooklyn,Berry Street,
+320,3093.0,N 6 St & Bedford Ave,40.7175,-73.9585,Brooklyn,North 6th Street,
+321,3094.0,Graham Ave & Withers St,40.717,-73.9449,Brooklyn,Graham Avenue,
+322,3095.0,Graham Ave & Herbert St,40.7193,-73.945,Brooklyn,Meeker Avenue,
+323,3096.0,Union Ave & N 12 St,40.7192,-73.9524,Brooklyn,Union Avenue,
+324,3100.0,Nassau Ave & Newell St,40.7248,-73.9475,Brooklyn,Nassau Avenue,
+325,3101.0,N 12 St & Bedford Ave,40.7208,-73.9548,Brooklyn,North 12th Street,
+326,3102.0,Driggs Ave & Lorimer St,40.7218,-73.9504,Brooklyn,Driggs Avenue,
+327,3105.0,N 15 St & Wythe Ave,40.7241,-73.9557,Brooklyn,North 15th Street,
+328,3106.0,Driggs Ave & N Henry St,40.7232,-73.9431,Brooklyn,Driggs Avenue,
+329,3107.0,Bedford Ave & Nassau Ave,40.7231,-73.9521,Brooklyn,Bedford Avenue,
+330,3108.0,Nassau Ave & Russell St,40.7256,-73.9443,Brooklyn,Nassau Avenue,
+331,3109.0,Banker St & Meserole Ave,40.7261,-73.9562,Brooklyn,Banker Street,
+332,3110.0,Meserole Ave & Manhattan Ave,40.7271,-73.953,Brooklyn,Meserole Avenue,
+333,3112.0,Milton St & Franklin St,40.7291,-73.9578,Brooklyn,Milton Street,
+334,3113.0,Greenpoint Ave & Manhattan Ave,40.7303,-73.9539,Brooklyn,Greenpoint Avenue,
+335,3115.0,India St & Manhattan Ave,40.7323,-73.9551,Brooklyn,India Street,
+336,3116.0,Huron St & Franklin St,40.7327,-73.9583,Brooklyn,Huron Street,
+337,3117.0,Franklin St & Dupont St,40.7356,-73.9587,Brooklyn,Dupont Street,Greenpoint Landing
+338,3118.0,McGuinness Blvd & Eagle St,40.7356,-73.9528,Brooklyn,Pulaski Bridge,
+339,3119.0,Vernon Blvd & 50 Ave,40.7423,-73.9541,Queens,Vernon Boulevard,Hunters Point
+340,3121.0,Jackson Ave & 46 Rd,40.7452,-73.9473,Queens,Jackson Avenue,
+341,3122.0,48 Ave & 5 St,40.7444,-73.9559,Queens,48th Avenue,Hunters Point
+342,3123.0,31 St & Thomson Ave,40.7447,-73.9354,Queens,Thomson Avenue,Sunnyside
+343,3124.0,46 Ave & 5 St,40.7473,-73.9545,Queens,46th Avenue,
+344,3125.0,45 Rd & 11 St,40.7471,-73.9498,Queens,45th Road,
+345,3126.0,44 Dr & Jackson Ave,40.7472,-73.9433,Queens,44th Drive,Court Square
+346,3127.0,9 St & 44 Rd,40.7497,-73.9521,Queens,Vernon Boulevard,
+347,3128.0,21 St & 43 Ave,40.7505,-73.9459,Queens,21st Street,
+348,3129.0,Queens Plaza North & Crescent St,40.7511,-73.9407,Queens,Queens Plaza Greenway,Queensbridge
+349,3130.0,21 St & Queens Plaza North,40.7533,-73.9434,Queens,21st Street,Queensbridge
+350,3131.0,E 68 St & 3 Ave,40.7671,-73.9622,Manhattan,East 68th Street,
+351,3132.0,E 59 St & Madison Ave,40.7635,-73.9711,Manhattan,East 59th Street,
+352,3134.0,3 Ave & E 62 St,40.7631,-73.9653,,East 62nd Street,Lenox Hill
+353,3135.0,E 75 St & 3 Ave,40.7711,-73.9577,,East 75th Street,Lenox Hill
+354,3136.0,5 Ave & E 63 St,40.7664,-73.9715,Manhattan,5th Avenue,
+355,3137.0,5 Ave & E 73 St,40.7728,-73.9669,Manhattan,Central Park Outer Loop,
+356,3139.0,E 72 St & Park Ave,40.7712,-73.9641,,East 72nd Street,Lenox Hill
+357,3140.0,1 Ave & E 78 St,40.7714,-73.9535,Manhattan,1st Avenue,
+358,3141.0,1 Ave & E 68 St,40.765,-73.9582,,1st Avenue,Lenox Hill
+359,3142.0,1 Ave & E 62 St,40.7612,-73.9609,,1st Avenue,Lenox Hill
+360,3143.0,5 Ave & E 78 St,40.7763,-73.9643,Manhattan,5th Avenue,
+361,3145.0,E 84 St & Park Ave,40.7786,-73.9577,Manhattan,East 84th Street,
+362,3146.0,E 81 St & 3 Ave,40.7757,-73.9568,Manhattan,East 81st Street,
+363,3148.0,E 84 St & 1 Ave,40.7757,-73.9507,Manhattan,East 84th Street,Yorkville
+364,3150.0,E 85 St & York Ave,40.7754,-73.948,Manhattan,East 85th Street,Yorkville
+365,3151.0,E 81 St & York Ave,40.7728,-73.9499,Manhattan,East 81st Street,Yorkville
+366,3152.0,3 Ave & E 71 St,40.7687,-73.9612,Manhattan,3rd Avenue,
+367,3154.0,E 77 St & 3 Ave,40.7731,-73.9586,Manhattan,East 77th Street,
+368,3155.0,Lexington Ave & E 63 St,40.7644,-73.9665,,East 63rd Street,Lenox Hill
+369,3156.0,E 72 St & York Ave,40.7666,-73.9535,,York Avenue,Lenox Hill
+370,3157.0,East End Ave & E 86 St,40.7752,-73.9445,Manhattan,East End Avenue,Yorkville
+371,3158.0,W 63 St & Broadway,40.7716,-73.9826,Manhattan,West 63rd Street,
+372,3159.0,W 67 St & Broadway,40.7749,-73.9827,Manhattan,West 67th Street,
+373,3160.0,Central Park West & W 76 St,40.779,-73.9737,Manhattan,Central Park Outer Loop,
+374,3161.0,W 76 St & Columbus Ave,40.7802,-73.9773,Manhattan,West 76th Street,
+375,3162.0,W 78 St & Broadway,40.7834,-73.9809,Manhattan,West End Avenue,
+376,3163.0,Central Park West & W 68 St,40.7734,-73.9778,Manhattan,Central Park Outer Loop,Lincoln Towers
+377,3164.0,Columbus Ave & W 72 St,40.7771,-73.979,Manhattan,Columbus Avenue,
+378,3165.0,Central Park West & W 72 St,40.7758,-73.9762,Manhattan,Central Park West,
+379,3166.0,Riverside Dr & W 72 St,40.7806,-73.9856,Manhattan,Riverside Drive,
+380,3167.0,Amsterdam Ave & W 73 St,40.7797,-73.9809,Manhattan,Amsterdam Avenue,
+381,3168.0,Central Park West & W 85 St,40.7847,-73.9696,Manhattan,Central Park Outer Loop,
+382,3169.0,Riverside Dr & W 82 St,40.7872,-73.9813,Manhattan,Riverside Drive,
+383,3170.0,W 84 St & Columbus Ave,40.785,-73.9728,Manhattan,West 84th Street,
+384,3171.0,Amsterdam Ave & W 82 St,40.7852,-73.9767,Manhattan,Amsterdam Avenue,
+385,3172.0,W 74 St & Columbus Ave,40.7786,-73.9775,Manhattan,West 74th Street,
+386,3173.0,Riverside Blvd & W 67 St,40.7775,-73.9889,Manhattan,Riverside Boulevard,
+387,3175.0,W 70 St & Amsterdam Ave,40.7775,-73.9829,Manhattan,West 70th Street,
+388,3177.0,W 84 St & Broadway,40.7868,-73.9771,Manhattan,West 84th Street,
+389,3178.0,Riverside Dr & W 78 St,40.7841,-73.9836,Manhattan,Riverside Drive,
+390,3179.0,Park Ave & Marcus Garvey Blvd,40.6986,-73.9413,Brooklyn,Park Avenue,
+391,3182.0,Yankee Ferry Terminal,40.6869,-74.017,Manhattan,Craig Road South,
+392,3221.0,47 Ave & 31 St,40.743,-73.9356,Queens,47th Avenue,Sunnyside
+393,3226.0,W 82 St & Central Park West,40.7828,-73.9714,Manhattan,West 82nd Street,
+394,3231.0,E 67 St & Park Ave,40.7678,-73.9659,,East 67th Street,Lenox Hill
+395,3232.0,Bond St & Fulton St,40.6896,-73.983,Brooklyn,Bond Street,
+396,3233.0,E 48 St & 5 Ave,40.7572,-73.9781,,5th Avenue,Midtown East
+397,3235.0,E 41 St & Madison Ave,40.7522,-73.9799,,East 41st Street,Murray Hill
+398,3236.0,W 42 St & Dyer Ave,40.759,-73.9938,Manhattan,West 42nd Street,Hell's Kitchen
+399,3241.0,Monroe St & Tompkins Ave,40.6862,-73.9447,Brooklyn,Monroe Street,
+400,3242.0,Schermerhorn St & Court St,40.691,-73.9918,Brooklyn,Schermerhorn Street,Brooklyn Heights
+401,3243.0,E 58 St & 1 Ave (NE Corner),40.7589,-73.9623,Manhattan,East 58th Street,Midtown East
+402,3244.0,University Pl & E 8 St,40.7314,-73.9949,,Washington Square North,Greenwich Village
+403,3249.0,Verona Pl & Fulton St,40.6804,-73.9477,Brooklyn,Verona Place,
+404,3254.0,Soissons Landing,40.6923,-74.0149,Manhattan,Andes Road,
+405,3255.0,8 Ave & W 31 St,40.7506,-73.9947,,West 33rd Street,Chelsea District
+406,3256.0,Pier 40 - Hudson River Park,40.7277,-74.0113,,Hudson River Park Esplanade,Battery Park City
+407,3259.0,9 Ave & W 28 St,40.7494,-73.9992,,9th Avenue,Chelsea
+408,3260.0,Mercer St & Bleecker St,40.7271,-73.9966,,Washington Square North,Greenwich Village
+409,3263.0,Cooper Square & Astor Pl,40.7295,-73.9908,Manhattan,,East Village
+410,3282.0,5 Ave & E 88 St,40.7831,-73.9594,Manhattan,Central Park Outer Loop,
+411,3283.0,W 89 St & Columbus Ave,40.7882,-73.9704,Manhattan,West 89th Street,
+412,3284.0,E 88 St & Park Ave,40.7814,-73.956,Manhattan,East 88th Street,Carnegie Hill
+413,3285.0,W 87 St & Amsterdam Ave,40.7884,-73.9747,Manhattan,West 87th Street,
+414,3286.0,E 89 St & 3 Ave,40.7806,-73.9522,Manhattan,East 89th Street,Yorkville
+415,3288.0,E 88 St & 1 Ave,40.7783,-73.9488,Manhattan,East 88th Street,Yorkville
+416,3289.0,W 90 St & Amsterdam Ave,40.7902,-73.9729,Manhattan,West 90th Street,
+417,3290.0,E 89 St & York Ave,40.7779,-73.946,Manhattan,East 89th Street,Yorkville
+418,3292.0,5 Ave & E 93 St,40.7858,-73.9575,Manhattan,Central Park Outer Loop,
+419,3293.0,W 92 St & Broadway,40.7921,-73.9739,Manhattan,Broadway,
+420,3294.0,E 91 St & Park Ave,40.7835,-73.9553,Manhattan,East 91st Street,Carnegie Hill
+421,3295.0,Central Park W & W 96 St,40.7913,-73.9648,Manhattan,Central Park Outer Loop,
+422,3296.0,E 93 St & 2 Ave,40.7825,-73.9489,Manhattan,East 93rd Street,Yorkville
+423,3297.0,6 St & 7 Ave,40.6687,-73.9799,Brooklyn,6th Street,Park Slope
+424,3298.0,Warren St & Court St,40.6864,-73.9938,Brooklyn,Warren Street,Cobble Hill Historic District
+425,3299.0,E 98 St & Park Ave,40.7881,-73.9521,Manhattan,East 100th Street,
+426,3300.0,Prospect Park West & 8 St,40.6651,-73.9764,Brooklyn,Prospect Park West,
+427,3301.0,Columbus Ave & W 95 St,40.792,-73.9681,Manhattan,Columbus Avenue,
+428,3302.0,Columbus Ave & W 103 St,40.7969,-73.9643,,Columbus Avenue,Bloomingdale
+429,3303.0,Butler St & Court St,40.685,-73.9944,Brooklyn,Butler Street,
+430,3304.0,6 Ave & 9 St,40.6681,-73.9838,Brooklyn,6th Avenue,Park Slope
+431,3305.0,E 91 St & 2 Ave,40.7811,-73.9497,Manhattan,East 91st Street,Yorkville
+432,3306.0,10 St & 7 Ave,40.6662,-73.982,Brooklyn,10th Street,Park Slope
+433,3307.0,West End Ave & W 94 St,40.7942,-73.9741,Manhattan,West End Avenue,
+434,3308.0,Kane St & Clinton St,40.6862,-73.9965,Brooklyn,Kane Street,Cobble Hill Historic District
+435,3309.0,E 97 St & 3 Ave,40.7859,-73.9486,,East 97th Street,East Harlem
+436,3310.0,14 St & 7 Ave,40.6638,-73.984,Brooklyn,14th Street,Park Slope
+437,3311.0,Columbia St & Kane St,40.6876,-74.0016,Brooklyn,Columbia Street Greenway,
+438,3312.0,1 Ave & E 94 St,40.7817,-73.9459,Manhattan,1st Avenue,Yorkville
+439,3313.0,6 Ave & 12 St,40.6663,-73.9855,Brooklyn,12th Street,Park Slope
+440,3314.0,W 95 St & Broadway,40.7938,-73.9719,Manhattan,West 95th Street,
+441,3315.0,Henry St & Degraw St,40.6848,-73.9992,Brooklyn,Henry Street,Cobble Hill Historic District
+442,3317.0,10 St & 5 Ave,40.6686,-73.987,Brooklyn,5th Avenue,
+443,3318.0,2 Ave & E 96 St,40.784,-73.9472,Manhattan,East 94th Street,Yorkville
+444,3319.0,14 St & 5 Ave,40.6663,-73.989,Brooklyn,14th Street,Park Slope
+445,3320.0,Central Park West & W 100 St,40.7941,-73.9629,Manhattan,Central Park West,
+446,3321.0,Clinton St & Union St,40.6831,-73.9979,Brooklyn,Clinton Street,Cobble Hill Historic District
+447,3322.0,12 St & 4 Ave,40.6686,-73.9904,Brooklyn,12th Street,Park Slope
+448,3323.0,W 106 St & Central Park West,40.7982,-73.9606,Manhattan,West 106th Street,
+449,3324.0,3 Ave & 14 St,40.6685,-73.9933,Brooklyn,3rd Avenue,
+450,3326.0,Clinton St & Centre St,40.6743,-74.0019,Brooklyn,Clinton Street,
+451,3327.0,3 Ave & E 100 St,40.7877,-73.9473,,3rd Avenue,East Harlem
+452,3328.0,W 100 St & Manhattan Ave,40.795,-73.9645,Manhattan,West 100th Street,
+453,3329.0,Degraw St & Smith St,40.6829,-73.9932,Brooklyn,Smith Street,Boerum Hill
+454,3330.0,Henry St & Bay St,40.6725,-74.0049,Brooklyn,Henry Street,
+455,3331.0,Riverside Dr & W 104 St,40.8013,-73.9711,Manhattan,Riverside Drive,
+456,3332.0,Degraw St & Hoyt St,40.682,-73.9908,Brooklyn,Degraw Street,
+457,3333.0,Columbia St & Lorraine St,40.6747,-74.0076,Brooklyn,Columbia Street,
+458,3335.0,Union St & 4 Ave,40.6773,-73.9828,Brooklyn,Union Street,Park Slope
+459,3336.0,E 97 St & Madison Ave,40.7878,-73.9536,Manhattan,East 97th Street,
+460,3337.0,Dwight St & Van Dyke St,40.6736,-74.012,Brooklyn,Dwight Street,
+461,3338.0,2 Ave & E 99 St,40.7863,-73.9455,Manhattan,2nd Avenue,
+462,3339.0,Berkeley Pl & 6 Ave,40.6765,-73.9785,Brooklyn,Berkeley Place,Park Slope
+463,3340.0,Wolcott St & Dwight St,40.6753,-74.0101,Brooklyn,Wolcott Street,
+464,3341.0,Central Park West & W 102 St,40.7953,-73.9619,Manhattan,Central Park Outer Loop,
+465,3342.0,Pioneer St & Richards St,40.6778,-74.0095,Brooklyn,,
+466,3343.0,W 107 St & Columbus Ave,40.7998,-73.9621,Manhattan,West 107th Street,
+467,3344.0,Pioneer St & Van Brunt St,40.679,-74.0112,Brooklyn,Pioneer Street,
+468,3345.0,Madison Ave & E 99 St,40.7895,-73.9524,,Madison Avenue,East Harlem
+469,3346.0,Berkeley Pl & 7 Ave,40.6751,-73.9752,Brooklyn,7th Avenue,Park Slope
+470,3347.0,Van Brunt St & Wolcott St,40.6773,-74.0128,Brooklyn,Wolcott Street,
+471,3348.0,Coffey St & Conover St,40.6772,-74.0157,Brooklyn,Coffey Street,
+472,3349.0,Grand Army Plaza & Plaza St West,40.673,-73.9709,Brooklyn,Plaza Street West,Park Slope
+473,3350.0,W 100 St & Broadway,40.7974,-73.9704,Manhattan,West 100th Street,
+474,3351.0,E 102 St & 1 Ave,40.787,-73.9416,,East 102nd Street,East Harlem
+475,3352.0,Sigourney St & Columbia St,40.6727,-74.0088,Brooklyn,Sigourney Street,
+476,3354.0,3 St & Prospect Park West,40.6681,-73.9736,Brooklyn,3rd Street,
+477,3355.0,E 66 St & Madison Ave,40.768,-73.9685,,East 66th Street,Lenox Hill
+478,3356.0,Amsterdam Ave & W 66 St,40.7747,-73.9847,Manhattan,Amsterdam Avenue,Lincoln Square
+479,3357.0,W 106 St & Amsterdam Ave,40.8008,-73.9664,Manhattan,West 106th Street,
+480,3358.0,Garfield Pl & 8 Ave,40.6712,-73.9748,Brooklyn,Garfield Place,Park Slope
+481,3359.0,E 68 St & Madison Ave,40.7692,-73.967,Manhattan,East 68th Street,
+482,3360.0,Amsterdam Ave & W 79 St,40.7829,-73.9787,Manhattan,Amsterdam Avenue,
+483,3361.0,Carroll St & 6 Ave,40.6741,-73.9787,Brooklyn,Carroll Street,Park Slope
+484,3362.0,Madison Ave & E 82 St,40.7781,-73.9607,Manhattan,East 81st Street,
+485,3363.0,E 102 St & Park Ave,40.7905,-73.9503,,East 102nd Street,East Harlem
+486,3364.0,Carroll St & 5 Ave,40.6752,-73.9815,Brooklyn,Carroll Street,Park Slope
+487,3365.0,3 St & 7 Ave,40.6704,-73.9784,Brooklyn,3rd Street,Park Slope
+488,3366.0,West End Ave & W 107 St,40.8021,-73.9682,Manhattan,West End Avenue,
+489,3367.0,5 Ave & E 103 St,40.7923,-73.9525,Manhattan,East 103rd Street,
+490,3368.0,5 Ave & 3 St,40.6728,-73.9835,Brooklyn,3rd Street,Park Slope
+491,3369.0,E 82 St & East End Ave,40.7725,-73.9468,Manhattan,East 82nd Street,Yorkville
+492,3370.0,E 78 St & 2 Ave,40.7728,-73.9558,Manhattan,East 78th Street,
+493,3372.0,E 74 St & 1 Ave,40.769,-73.9548,,East 74th Street,Lenox Hill
+494,3373.0,3 St & 3 Ave,40.6751,-73.9878,Brooklyn,3rd Street,
+495,3374.0,Central Park North & Adam Clayton Powell Blvd,40.7995,-73.9556,Manhattan,Central Park Outer Loop,
+496,3375.0,3 Ave & E 72 St,40.7699,-73.9606,,3rd Avenue,Lenox Hill
+497,3376.0,E 65 St & 2 Ave,40.7647,-73.9622,Manhattan,East 65th Street,
+498,3377.0,Carroll St & Bond St,40.6786,-73.9904,Brooklyn,Bond Street,
+499,3378.0,E 76 St & Park Ave,40.7738,-73.9622,Manhattan,East 76th Street,
+500,3379.0,E 103 St & Lexington Ave,40.7903,-73.9476,,Lexington Avenue,East Harlem
+501,3381.0,3 St & Hoyt St,40.6777,-73.9936,Brooklyn,3rd Street,
+502,3382.0,Carroll St & Smith St,40.6806,-73.9948,Brooklyn,Smith Street,Boerum Hill
+503,3383.0,Cathedral Pkwy & Broadway,40.8042,-73.967,Manhattan,Cathedral Parkway,Bloomingdale
+504,3384.0,Smith St & 3 St,40.6787,-73.996,Brooklyn,Smith Street,Boerum Hill
+505,3386.0,1 Pl & Clinton St,40.681,-73.9991,Brooklyn,1st Place,
+506,3387.0,E 106 St & Madison Ave,40.7934,-73.9495,,Madison Avenue,East Harlem
+507,3388.0,President St & Henry St,40.6828,-73.9999,Brooklyn,President Street,
+508,3389.0,Carroll St & Columbia St,40.683,-74.0035,Brooklyn,Carroll Street,
+509,3390.0,E 109 St & 3 Ave,40.7933,-73.9432,,East 109th Street,East Harlem
+510,3391.0,E 106 St & 1 Ave,40.7893,-73.9396,,East 106th Street,East Harlem
+511,3392.0,Commerce St & Van Brunt St,40.6812,-74.0086,Brooklyn,Bowne Street,
+512,3393.0,Richards St & Delavan St,40.6794,-74.0079,Brooklyn,Richards Street,
+513,3394.0,Columbia St & W 9 St,40.677,-74.0065,Brooklyn,Columbia Street,
+514,3395.0,Henry St & W 9 St,40.6764,-74.0032,Brooklyn,Henry Street,
+515,3396.0,Clinton St & 4 Place,40.6784,-74.0001,Brooklyn,4th Place,
+516,3397.0,Court St & Nelson St,40.6764,-73.9987,Brooklyn,Court Street,
+517,3398.0,Smith St & 9 St,40.6747,-73.9979,Brooklyn,Smith Street,
+518,3399.0,7 St & 3 Ave,40.6726,-73.9898,Brooklyn,7th Street,Park Slope
+519,3400.0,E 110 St & Madison Ave,40.7962,-73.9478,,East 110th Street,East Harlem
+520,3402.0,Court St & State St,40.6902,-73.992,Brooklyn,Court Street,
+521,3403.0,4 Ave & 9 St,40.6705,-73.9888,Brooklyn,4th Avenue,Park Slope
+522,3404.0,7 St & 5 Ave,40.6705,-73.9854,Brooklyn,5th Avenue,Park Slope
+523,3405.0,5 St & 6 Ave,40.6705,-73.9821,Brooklyn,5th Street,Park Slope
+524,3407.0,Union St & Nevins St,40.6791,-73.9877,Brooklyn,Union Street,
+525,3408.0,Congress St & Clinton St,40.6882,-73.9952,Brooklyn,Congress Street,Cobble Hill Historic District
+526,3409.0,Bergen St & Smith St,40.6867,-73.9906,Brooklyn,Smith Street,Boerum Hill
+527,3410.0,Dean St & Hoyt St,40.6864,-73.9876,Brooklyn,Dean Street,Boerum Hill
+528,3411.0,Bond St & Bergen St,40.685,-73.9862,Brooklyn,Bergen Street,Boerum Hill
+529,3412.0,Pacific St & Nevins St,40.6854,-73.983,Brooklyn,Pacific Street,
+530,3413.0,Wyckoff St & 3 Ave,40.6828,-73.9826,Brooklyn,Wyckoff Street,Boerum Hill
+531,3414.0,Bergen St & Flatbush Ave,40.6809,-73.9757,Brooklyn,Bergen Street,Park Slope
+532,3415.0,Prospect Pl & 6 Ave,40.6793,-73.9752,Brooklyn,Prospect Place,Park Slope
+533,3416.0,7 Ave & Park Pl,40.6776,-73.9732,Brooklyn,Park Place,Park Slope
+534,3417.0,Baltic St & 5 Ave,40.6796,-73.9785,Brooklyn,5th Avenue,Park Slope
+535,3418.0,Plaza St West & Flatbush Ave,40.675,-73.9711,Brooklyn,Plaza Street West,Park Slope
+536,3419.0,Douglass St & 4 Ave,40.6793,-73.9815,Brooklyn,4th Avenue,
+537,3420.0,Douglass St & 3 Ave,40.6802,-73.9843,Brooklyn,Douglass Street,
+538,3422.0,Columbia St & Degraw St,40.6859,-74.0024,Brooklyn,Columbia Street Greenway,
+539,3423.0,West Drive & Prospect Park West,40.6611,-73.9795,Brooklyn,Prospect Park West,Park Slope
+540,3424.0,E 106 St & Lexington Ave,40.792,-73.946,,East 106th Street,East Harlem
+541,3425.0,2 Ave & E 104 St,40.7892,-73.9437,,East 104th Street,East Harlem
+542,3427.0,Lafayette St & Jersey St,40.7243,-73.996,,Lafayette Street,Little Italy
+543,3429.0,Hanson Pl & Ashland Pl,40.6851,-73.9779,Brooklyn,Hanson Place,Fort Greene
+544,3430.0,Richardson St & N Henry St,40.7191,-73.9422,Brooklyn,Richardson Street,
+545,3434.0,W 88 St & West End Ave,40.7903,-73.9772,Manhattan,West 88th Street,
+546,3435.0,Grand St & Elizabeth St,40.7188,-73.996,,Grand Street,Little Italy
+547,3437.0,Riverside Dr & W 91 St,40.7931,-73.977,Manhattan,Riverside Drive,
+548,3440.0,Fulton St & Adams St,40.6924,-73.9895,Brooklyn,Joralemon Street,Downtown Brooklyn
+549,3441.0,10 Hudson Yards,40.753,-74.0026,,West 24th Street,Chelsea District
+550,3443.0,W 52 St & 6 Ave,40.7613,-73.9798,,,Theater District
+551,3449.0,Eckford St & Engert Ave,40.7215,-73.948,Brooklyn,Eckford Street,
+552,3452.0,Bayard St & Leonard St,40.7192,-73.9489,Brooklyn,Bayard Street,
+553,3453.0,Devoe St & Lorimer St,40.7134,-73.9491,Brooklyn,Devoe Street,
+554,3454.0,Leonard St & Maujer St,40.7104,-73.9471,Brooklyn,Leonard Street,
+555,3456.0,Jackson St & Leonard St,40.7164,-73.9482,Brooklyn,Leonard Street,
+556,3459.0,E 53 St & 3 Ave,40.7576,-73.9693,,East 53rd Street,Turtle Bay
+557,3461.0,Murray St & Greenwich St,40.7149,-74.0112,,Murray Street,Tribeca
+558,3463.0,E 16 St & Irving Pl,40.7354,-73.988,,East 16th Street,Manhattan Community Board 5
+559,3467.0,W Broadway & Spring Street,40.7249,-74.0017,,West Broadway,SoHo
+560,3469.0,India St & West St,40.7318,-73.96,Brooklyn,India Street,
+561,3472.0,W 15 St & 10 Ave,40.7428,-74.0075,,West 24th Street,Chelsea District
+562,3477.0,39 St & 2 Ave - Citi Bike HQ at Industry City,40.6554,-74.0106,Brooklyn,39th Street,Sunset Park
+563,3478.0,2 Ave & 36 St - Citi Bike HQ at Industry City,40.6571,-74.0087,Brooklyn,2nd Avenue,
+564,3479.0,Picnic Point,40.6851,-74.0254,Manhattan,Craig Road South,
+565,3486.0,Schermerhorn St & Bond St,40.6884,-73.9845,Brooklyn,Schermerhorn Street,
+566,3490.0,E 116 St & 2 Ave,40.7969,-73.9373,,East 116th Street,East Harlem
+567,3491.0,E 118 St & 1 Ave,40.7975,-73.935,,East 118th Street,East Harlem
+568,3492.0,E 118 St & Park Ave,40.8005,-73.942,,East 118th Street,East Harlem
+569,3493.0,E 118 St & 3 Ave,40.7991,-73.9389,,East 118th Street,East Harlem
+570,3494.0,E 115 St & Lexington Ave,40.7979,-73.9423,,East 115th Street,East Harlem
+571,3495.0,E 114 St & 1 Ave,40.7946,-73.9363,,East 114th Street,East Harlem
+572,3496.0,1 Ave & E 110 St,40.7923,-73.9383,,East 110th Street,East Harlem
+573,3497.0,Pleasant Ave & E 116 St,40.795,-73.9333,,Pleasant Avenue,East Harlem
+574,3498.0,Pleasant Ave & E 120 St,40.7975,-73.9312,,East 120th Street,East Harlem
+575,3499.0,2 Ave & E 122 St,40.8007,-73.9349,,2nd Avenue,East Harlem
+576,3500.0,E 115 St & Madison Ave,40.7989,-73.9448,,East 115th Street,East Harlem
+577,3501.0,E 118 St & Madison Ave,40.8015,-73.9443,,East 118th Street,East Harlem
+578,3502.0,Lexington Ave & E 111 St,40.7954,-73.9441,,East 110th Street,East Harlem
+579,3503.0,Madison Ave & E 120 St,40.803,-73.943,,Madison Avenue,East Harlem
+580,3504.0,E 123 St & Lexington Ave,40.8029,-73.9379,,East 123rd Street,East Harlem
+581,3505.0,Lexington Ave & E 127 St,40.8057,-73.9363,,Lexington Avenue,East Harlem
+582,3506.0,Lexington Ave & E 120 St,40.8013,-73.9398,Manhattan,Lexington Avenue,
+583,3507.0,Park Ave & E 124 St,40.8046,-73.9397,,Park Avenue,East Harlem
+584,3508.0,St Nicholas Ave & Manhattan Ave,40.8097,-73.9531,,Saint Nicholas Avenue,
+585,3509.0,Lenox Ave & W 115 St,40.8012,-73.9501,,Malcolm X Boulevard,
+586,3510.0,Adam Clayton Powell Blvd & W 123 St,40.8078,-73.9494,Manhattan,Adam Clayton Powell Jr. Boulevard,
+587,3511.0,Adam Clayton Powell Blvd & W 115 St,40.8025,-73.9532,,Adam Clayton Powell Jr. Boulevard,
+588,3512.0,27 Ave & 4 St,40.7747,-73.9338,Queens,27th Avenue,Astoria
+589,3513.0,21 St & Hoyt Ave S,40.7746,-73.9237,Queens,21st Street,Astoria
+590,3514.0,Astoria Park S & Shore Blvd,40.7767,-73.9276,Queens,Astoria Park South,Astoria
+591,3515.0,24 Ave & 26 St,40.7746,-73.9185,Queens,24th Avenue,
+592,3516.0,31 St & Astoria Blvd,40.7699,-73.9184,Queens,Hoyt Avenue North,
+593,3517.0,31 St & Hoyt Ave N,40.7712,-73.917,Queens,31st Street,Steinway
+594,3518.0,Lenox Ave & W 126 St,40.8084,-73.9452,Manhattan,Malcolm X Boulevard,
+595,3520.0,Adam Clayton Powell Blvd & W 118 St,40.8044,-73.9515,,Adam Clayton Powell Jr. Boulevard,
+596,3521.0,Lenox Ave & W 111 St,40.7988,-73.9523,,Malcolm X Boulevard,
+597,3522.0,37 St & 24 Ave,40.7701,-73.9121,Queens,37th Street,Steinway
+598,3523.0,24 Ave & 29 St,40.7729,-73.9161,Queens,24th Avenue,
+599,3524.0,19 St & 24 Ave,40.7775,-73.9225,Queens,19th Street,Astoria
+600,3525.0,23 Ave & 27 St,40.7762,-73.9153,Queens,23rd Avenue,Steinway
+601,3526.0,31 St & 23 Ave,40.7748,-73.9126,Queens,31st Street,Steinway
+602,3527.0,5 Ave & E 126 St,40.807,-73.9417,,East 126th Street,East Harlem
+603,3528.0,Steinway St & 23 Ave,40.7714,-73.9077,Queens,Steinway Street,Steinway
+604,3529.0,Lenox Ave & W 130 St,40.8108,-73.9431,,Malcolm X Boulevard,
+605,3530.0,Crescent St & Ditmars Blvd,40.7787,-73.9146,Queens,Crescent Street,Steinway
+606,3531.0,Frederick Douglass Blvd & W 129 St,40.8126,-73.9492,,West 129th Street,
+607,3532.0,Ditmars Blvd & 19 St,40.7814,-73.9183,Queens,Ditmars Boulevard,
+608,3533.0,St. Nicholas Ave & W 126 St,40.8114,-73.9519,,West 126th Street,
+609,3534.0,Frederick Douglass Blvd & W 117 St,40.8052,-73.9547,,West 117th Street,
+610,3535.0,Mt Morris Park W & W 120 St,40.804,-73.9459,,Mt Morris Park West,
+611,3536.0,W 116 St & Broadway,40.8082,-73.9641,Manhattan,West 116th Street,Morningside Heights
+612,3537.0,Carlton Ave & Dean St,40.681,-73.971,Brooklyn,Carlton Avenue,
+613,3538.0,W 110 St & Amsterdam Ave,40.8027,-73.963,Manhattan,Cathedral Parkway,Morningside Heights
+614,3539.0,W 116 St & Amsterdam Ave,40.8068,-73.9607,Manhattan,West 120th Street,Morningside Heights
+615,3540.0,Morningside Ave & W 123 St,40.81,-73.9552,Manhattan,Morningside Avenue,Morningside Heights
+616,3541.0,Amsterdam Ave & W 125 St,40.8134,-73.9565,Manhattan,West 125th Street,Manhattanville
+617,3542.0,Amsterdam Ave & W 119 St,40.8086,-73.9596,Manhattan,Amsterdam Avenue,Morningside Heights
+618,3543.0,Morningside Dr & Amsterdam Ave,40.8103,-73.9574,Manhattan,Morningside Drive,Morningside Heights
+619,3544.0,Underhill Ave & Pacific St,40.6805,-73.9647,Brooklyn,Underhill Avenue,
+620,3545.0,Broadway & W 122 St,40.8121,-73.9613,Manhattan,Broadway,Morningside Heights
+621,3546.0,Pacific St & Classon Ave,40.6792,-73.9588,Brooklyn,Atlantic Avenue,
+622,3547.0,Broadway & Moylan Pl,40.8143,-73.959,Manhattan,Broadway,Manhattanville
+623,3549.0,Grand Ave & Bergen St,40.678,-73.9624,Brooklyn,Grand Avenue,
+624,3551.0,3 Ave & E 112 St,40.7955,-73.9416,,3rd Avenue,East Harlem
+625,3552.0,W 113 St & Broadway,40.806,-73.9649,Manhattan,Broadway,Morningside Heights
+626,3553.0,Frederick Douglass Blvd & W 112 St,40.8017,-73.9571,Manhattan,Frederick Douglass Boulevard,
+627,3554.0,Vernon Blvd & 41 Rd,40.7552,-73.9486,Queens,Vernon Boulevard,Queensbridge
+628,3555.0,28 St & 41 Ave,40.751,-73.938,Queens,28th Street,Court Square
+629,3556.0,24 St & 41 Ave,40.7527,-73.9397,Queens,41st Street,
+630,3557.0,40 Ave & 9 St,40.7574,-73.9451,Queens,40th Avenue,Queensbridge
+631,3558.0,Bergen St & Vanderbilt Ave,40.6794,-73.968,Brooklyn,Bergen Street,
+632,3559.0,21 St & 38 Ave,40.7576,-73.9391,Queens,21st Street,Ravenswood
+633,3560.0,28 St & 38 Ave,40.7549,-73.9343,Queens,38th Avenue,Ravenswood
+634,3561.0,37 Ave & 35 St,40.7531,-73.928,Queens,35th Street,
+635,3562.0,Classon Ave & St Marks Ave,40.6765,-73.9596,Brooklyn,Classon Avenue,
+636,3563.0,28 St & 36 Ave,40.7572,-73.9327,Queens,28th Street,Court Square
+637,3564.0,21 St & 36 Ave,40.7602,-73.9363,Queens,21st Street,Ravenswood
+638,3565.0,36 Ave & 10 St,40.7614,-73.9411,Queens,36th Avenue,Ravenswood
+639,3566.0,Crescent St & 35 Ave,40.7596,-73.9321,Queens,Crescent Street,Ravenswood
+640,3567.0,11 St & 35 Ave,40.7627,-73.9391,Queens,11th Street,Queensbridge
+641,3568.0,34 St & 35 Ave,40.7569,-73.9262,Queens,34th Street,
+642,3569.0,Franklin Ave & St Marks Ave,40.6758,-73.9562,Brooklyn,Saint Marks Avenue,
+643,3570.0,35 Ave & 37 St,40.7557,-73.9237,Queens,35th Avenue,
+644,3571.0,Bedford Ave & Bergen St,40.6764,-73.9529,Brooklyn,Bedford Avenue,
+645,3572.0,34 Ave & 38 St,40.7569,-73.9216,Queens,34th Avenue,Sunnyside Gardens
+646,3573.0,35 St & 34 Ave,40.7581,-73.9243,Queens,34th Avenue,Sunnyside Gardens
+647,3574.0,Prospect Pl & Underhill Ave,40.677,-73.9658,Brooklyn,Prospect Place,
+648,3575.0,Crescent St & 34 Ave,40.7611,-73.9306,Queens,Crescent Street,Ravenswood
+649,3576.0,Park Pl & Vanderbilt Ave,40.6767,-73.969,Brooklyn,Park Place,
+650,3577.0,34 Ave & 21 St,40.7628,-73.9343,Queens,34th Avenue,Ravenswood
+651,3578.0,Park Pl & Franklin Ave,40.6742,-73.9565,Brooklyn,Franklin Avenue,
+652,3579.0,Sterling Pl & Bedford Ave,40.6727,-73.9541,Brooklyn,Sterling Place,
+653,3580.0,St Johns Pl & Washington Ave,40.6737,-73.9632,Brooklyn,Saint Johns Place,
+654,3581.0,Underhill Ave & Lincoln Pl,40.674,-73.9671,Brooklyn,Underhill Avenue,
+655,3582.0,Lincoln Pl & Classon Ave,40.6722,-73.9609,Brooklyn,Lincoln Place,
+656,3583.0,Eastern Pkwy & Washington Ave,40.6716,-73.9631,Brooklyn,Eastern Parkway South Sidewalk,
+657,3584.0,Eastern Pkwy & Franklin Ave,40.6708,-73.9577,Brooklyn,Eastern Parkway Service Road,
+658,3585.0,Union St & Bedford Ave,40.6692,-73.9554,Brooklyn,Union Street,
+659,3586.0,34 Ave & 13 St,40.7639,-73.9365,Queens,34th Avenue,Ravenswood
+660,3587.0,Carroll St & Washington Ave,40.6687,-73.9618,Brooklyn,Carroll Street,
+661,3588.0,Vernon Blvd & 10 St,40.7672,-73.9374,Queens,Vernon Boulevard,Ravenswood
+662,3589.0,Broadway & 12 St,40.7668,-73.9348,Queens,Broadway,Astoria
+663,3590.0,Carroll St & Franklin Ave,40.6679,-73.9588,Brooklyn,Franklin Avenue,
+664,3591.0,21 St & 31 Dr,40.7659,-73.9308,Queens,31st Drive,Astoria
+665,3592.0,Crescent St & Broadway,40.7634,-73.9286,Queens,Crescent Street,
+666,3593.0,31 St & Broadway,40.7616,-73.9259,Queens,31st Street,
+667,3595.0,35 St & Broadway,40.7603,-73.9222,Queens,Broadway,
+668,3596.0,Sullivan Pl & Bedford Ave,40.6642,-73.9575,Brooklyn,Bedford Avenue,
+669,3597.0,43 St & Broadway,40.7577,-73.9166,Queens,Broadway,
+670,3598.0,Newton Rd & 44 St,40.7596,-73.9143,Queens,31st Avenue,
+671,3599.0,Franklin Ave & Empire Blvd,40.6631,-73.9606,Brooklyn,Franklin Avenue,
+672,3601.0,Sterling St & Bedford Ave,40.6627,-73.9569,Brooklyn,Sterling Street,
+673,3602.0,31 Ave & 34 St,40.7632,-73.9208,Queens,34th Street,
+674,3603.0,31 Ave & 30 St,40.7647,-73.924,Queens,31st Avenue,Astoria
+675,3604.0,Rogers Ave & Sterling St,40.6631,-73.9539,Brooklyn,Rogers Avenue,
+676,3605.0,31 Ave & Crescent St,40.7658,-73.9265,Queens,31st Avenue,Astoria
+677,3606.0,49 Ave & 21 St,40.7425,-73.9489,Queens,49th Avenue,
+678,3607.0,31 Ave & 14 St,40.7682,-73.9323,Queens,31st Avenue,Astoria
+679,3608.0,5 St & 51 Ave,40.7424,-73.9566,Queens,51st Avenue,Hunters Point
+680,3609.0,Vernon Blvd & 31 Ave,40.7692,-73.9355,Queens,Vernon Boulevard,Astoria
+681,3610.0,Vernon Blvd & 30 Rd,40.7708,-73.9342,Queens,Vernon Boulevard,Astoria
+682,3611.0,Vernon Blvd & 47 Rd,40.7449,-73.9535,Queens,Vernon Boulevard,Hunters Point
+683,3612.0,30 Ave & 21 St,40.7704,-73.9286,Queens,14th Street,Astoria
+684,3613.0,Center Blvd & 48 Ave,40.745,-73.9575,Queens,48th Avenue,Hunters Point
+685,3614.0,Crescent St & 30 Ave,40.7687,-73.925,Queens,Crescent Street,Astoria
+686,3615.0,44 Dr & 21 St,40.748,-73.9461,Queens,44th Drive,Court Square
+687,3616.0,Steinway St & 28 Ave,40.7656,-73.9137,Queens,Steinway Street,Steinway
+688,3617.0,28 Ave & 35 St,40.7671,-73.917,Queens,28th Avenue,
+689,3618.0,27 St & Hunter St,40.7485,-73.9413,Queens,27th Street,Court Square
+690,3619.0,Newtown Ave & 23 St,40.7714,-73.9246,Queens,Newtown Avenue,Astoria
+691,3620.0,11 St & 43 Ave,40.7519,-73.9479,Queens,11th Street,
+692,3621.0,27 Ave & 9 St,40.774,-73.9309,Queens,27th Avenue,Astoria
+693,3622.0,E 128 St & Madison Ave,40.8076,-73.9392,,East 128th Street,East Harlem
+694,3623.0,W 120 St & Claremont Ave,40.8109,-73.9634,Manhattan,Riverside Drive,Morningside Heights
+695,3628.0,Lenox Ave & W 117 St,40.8026,-73.9491,,West 117th Street,
+696,3629.0,Adam Clayton Powell Blvd & W 126 St,40.8095,-73.9478,,Adam Clayton Powell Jr. Boulevard,
+697,3630.0,Frederick Douglass Blvd & W 115 St,40.8039,-73.9559,,Frederick Douglass Boulevard,
+698,3631.0,Crown St & Bedford Ave,40.6666,-73.9567,Brooklyn,Crown Street,
+699,3637.0,Fulton St & Waverly Ave,40.6832,-73.966,Brooklyn,Fulton Street,
+700,3641.0,Broadway & W 25 St,40.7429,-73.9892,,General Worth Square,Flatiron District
+701,3646.0,35 Ave & 10 St,40.7632,-73.9399,Queens,35th Avenue,Ravenswood
+702,3647.0,48 Ave & 30 Pl,40.7413,-73.9373,Queens,30th Place,Sunnyside
+703,3648.0,Flushing Ave & Vanderbilt Ave,40.698,-73.9708,Brooklyn,Flushing Avenue,
+704,3649.0,W 129 St & Convent Ave,40.8144,-73.9532,Manhattan,West 129th Street,Manhattanville
+705,3654.0,31 St & Northern Blvd,40.7519,-73.9335,Queens,31st Street,
+706,3656.0,E 2 St & Avenue A,40.7231,-73.9858,Manhattan,East 2nd Street,East Village
+707,3661.0,Montgomery St & Franklin Ave,40.6664,-73.9606,Brooklyn,Montgomery Street,
+708,3662.0,31 Ave & Steinway St,40.7613,-73.9169,Queens,31st Avenue,
+709,3664.0,North Moore St & Greenwich St,40.7202,-74.0103,,North Moore Street,Tribeca
+710,3668.0,Leonard St & Nassau Ave,40.724,-73.9498,Brooklyn,Nassau Avenue,
+711,3671.0,E 81 St & 2 Ave,40.7748,-73.9543,Manhattan,2nd Avenue,
+712,3673.0,Dean St & Franklin Ave,40.6776,-73.9556,Brooklyn,Dean Street,
+713,3674.0,Jay St & York St,40.7014,-73.9867,Brooklyn,Brooklyn-Queens Expressway,
+714,3675.0,3 Ave & E 95 St,40.7846,-73.9497,Manhattan,3rd Avenue,Carnegie Hill
+715,3676.0,Van Brunt St & Van Dyke St,40.6758,-74.0147,Brooklyn,Van Brunt Street,
+716,3680.0,E 43 St & 5 Ave,40.7541,-73.9803,,East 43rd Street,Midtown East
+717,3686.0,Gansevoort St & Hudson St,40.7394,-74.0051,,Gansevoort Street,West Village
+718,3687.0,E 33 St & 1 Ave,40.7432,-73.9745,,East 33rd Street,Kips Bay
+719,3689.0,W 104 St & Amsterdam Ave,40.799,-73.9665,Manhattan,Amsterdam Avenue,
+720,3690.0,Park Pl & Church St,40.7133,-74.0094,,Murray Street,Tribeca
+721,3691.0,28 Ave & 44 St,40.7641,-73.9107,Queens,28th Avenue,
+722,3692.0,5 St & Market St,40.7,-73.9744,Brooklyn,5th Street,
+723,3693.0,N 11 St & Kent Ave,40.7225,-73.9592,Brooklyn,North 11th Street,
+724,3697.0,W 64 St & Thelonious Monk Circle,40.7752,-73.9892,Manhattan,West 64th Street,
+725,3699.0,W 50 St & 9 Ave,40.7636,-73.9892,Manhattan,West 50th Street,Hell's Kitchen
+726,3704.0,47 Ave & Skillman Ave,40.7438,-73.9418,Queens,47th Avenue,Sunnyside
+727,3707.0,Lexington Ave & E 26 St,40.7415,-73.9833,,Lexington Avenue,Kips Bay
+728,3708.0,W 13 St & 5 Ave,40.7354,-73.9943,,West 13th Street,Greenwich Village
+729,3709.0,W 15 St & 6 Ave,40.738,-73.9964,,6th Avenue,Chelsea
+730,3711.0,E 13 St & Avenue A,40.7297,-73.9807,Manhattan,East 13th Street,East Village
+731,3712.0,W 35 St & Dyer Ave,40.7547,-73.9974,,West 35th Street,Garment District
+732,3714.0,Division Av & Hooper St,40.7068,-73.9544,Brooklyn,Hooper Street,
+733,3715.0,Driggs Ave & N 9 St,40.7182,-73.9552,Brooklyn,Driggs Avenue,
+734,3716.0,40 Ave & Crescent St,40.7536,-73.938,Queens,40th Avenue,Queensbridge
+735,3718.0,E 11 St & Avenue B,40.7275,-73.9795,Manhattan,East 11th Street,East Village
+736,3720.0,Wyckoff St & Bond St,40.6846,-73.9872,Brooklyn,Wyckoff Street,
+737,3721.0,31 St & Newtown Ave,40.7675,-73.9209,Queens,31st Street,
+738,3723.0,Cadman Plaza E & Johnson St,40.6953,-73.9902,Brooklyn,Cadman Plaza West,
+739,3724.0,7 Ave & Central Park South,40.7667,-73.9791,,7th Avenue,Manhattan Community Board 5
+740,3725.0,2 Ave & E 72 St,40.7688,-73.9584,,East 72nd Street,Lenox Hill
+741,3726.0,Center Blvd & 51 Ave,40.7434,-73.9596,Queens,Center Boulevard,Hunters Point
+742,3727.0,Frost St & Meeker Ave,40.7177,-73.9488,Brooklyn,Frost Street,
+743,3728.0,Pierrepont St & Monroe Pl,40.6954,-73.9934,Brooklyn,Monroe Place,Brooklyn Heights
+744,3733.0,Avenue C & E 18 St,40.7306,-73.974,,Avenue C,Stuy Town
+745,3734.0,E 58 St &  1 Ave (NW Corner),40.7591,-73.9627,Manhattan,East 58th Street,Midtown East
+746,3737.0,Stanton St & Norfolk St,40.7207,-73.9863,Manhattan,Stanton Street,
+747,3745.0,36 Ave & 31 St,40.7565,-73.9296,Queens,36th Avenue,Ravenswood
+748,3746.0,6 Ave & Broome St,40.7243,-74.0047,,6th Avenue,Hudson Square
+749,3747.0,E 84 St & 3 Ave,40.7776,-73.9551,Manhattan,East 84th Street,
+750,3749.0,Lexington Ave & E 36 St,40.7476,-73.9788,Manhattan,Lexington Avenue,Murray Hill
+751,3755.0,DeKalb Ave & Franklin Ave,40.6906,-73.9575,Brooklyn,DeKalb Avenue,Fort Greene
+752,3756.0,White St & Moore St,40.7045,-73.9351,Brooklyn,Moore Street,
+753,3757.0,Stagg St & Morgan Ave,40.7107,-73.9337,Brooklyn,Stagg Street,
+754,3758.0,George St & Wilson Ave,40.703,-73.93,Brooklyn,George Street,
+755,3759.0,Irving Ave & Jefferson St,40.7054,-73.9254,Brooklyn,Jefferson Street,
+756,3760.0,Willoughby Ave & Wyckoff Ave,40.7056,-73.9215,Brooklyn,Willoughby Avenue,
+757,3761.0,Cedar St & Myrtle Ave,40.6978,-73.9262,Brooklyn,Myrtle Avenue,
+758,3762.0,3 Ave & Carroll St,40.677,-73.9865,Brooklyn,3rd Avenue,
+759,3763.0,Wyckoff Av & Jefferson St,40.7072,-73.9237,Brooklyn,Flushing Avenue,
+760,3764.0,Bushwick Ave & McKibbin St,40.7055,-73.9394,Brooklyn,Bushwick Avenue,
+761,3765.0,Bushwick Ave & Stagg St,40.7099,-73.9401,Brooklyn,Grand Street,
+762,3766.0,Sharon St & Olive St,40.7154,-73.9386,Brooklyn,Sharon Street,
+763,3767.0,Powers St & Olive St,40.7132,-73.9389,Brooklyn,Powers Street,
+764,3768.0,Waterbury St & Stagg St,40.7102,-73.9373,Brooklyn,Grand Street,
+765,3769.0,White St & Johnson Ave,40.7072,-73.9358,Brooklyn,Boerum Street,
+766,3770.0,Central Ave & Flushing Ave,40.7028,-73.9333,Brooklyn,Central Avenue,
+767,3771.0,McKibbin St & Bogart St,40.7062,-73.9339,Brooklyn,McKibbin Street,
+768,3772.0,Devoe St & Morgan Ave,40.7138,-73.9351,Brooklyn,Devoe Street,
+769,3773.0,Knickerbocker Ave & Thames St,40.7054,-73.9298,Brooklyn,Knickerbocker Avenue,
+770,3774.0,Knickerbocker Ave & George St,40.7044,-73.9284,Brooklyn,Knickerbocker Avenue,
+771,3775.0,Suydam St & Knickerbocker Ave,40.702,-73.9238,Brooklyn,Suydam Street,
+772,3776.0,Central Ave & Starr Street,40.7,-73.9283,Brooklyn,Troutman Street,
+773,3777.0,Stockholm St & Wilson Ave,40.6993,-73.923,Brooklyn,Stockholm Street,
+774,3778.0,Irving Ave & DeKalb Ave,40.7027,-73.921,Brooklyn,Irving Avenue,
+775,3779.0,Hart St & Wyckoff Ave,40.7049,-73.9199,Brooklyn,Wyckoff Avenue,
+776,3781.0,Greene Av & Myrtle Av,40.6986,-73.9189,Brooklyn,Greene Avenue,
+777,3782.0,Brooklyn Bridge Park - Pier 2,40.6985,-73.9972,Brooklyn,Furman Street,
+778,3783.0,Cliff St & Fulton St,40.7084,-74.005,,Fulton Street,Financial District
+779,3787.0,Dock 72 Way & Market St,40.6998,-73.9714,Brooklyn,,
+780,3788.0,E 12 St & 4 Av,40.7327,-73.9897,,4th Avenue,East Village
+781,3789.0,Fulton St & Irving Pl,40.6819,-73.9594,Brooklyn,Fulton Street,
+782,3790.0,Henry St & Middagh St,40.7003,-73.9916,Brooklyn,Henry Street,Brooklyn Heights
+783,3793.0,Stuyvesant Walk & 1 Av Loop,40.7323,-73.979,,Stuyvesant Walk,
+784,3795.0,10 St & 2 Ave,40.6719,-73.9936,Brooklyn,10th Street,Park Slope
+785,3798.0,W 40 St & 5 Ave,40.7523,-73.9821,,West 40th Street,Manhattan Community Board 5
+786,3799.0,6 Ave & W 34 St,40.7496,-73.9881,,West 32nd Street,Herald Square
