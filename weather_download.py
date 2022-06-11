@@ -39,7 +39,7 @@ def download_data(start, end):
     CSVText = csv.reader(codecs.iterdecode(CSVBytes, 'utf-8'))
     
     with open(f"weather_{start}_{end}.csv", "w") as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator='\n')
         for row in CSVText:
             writer.writerow(row)
 
