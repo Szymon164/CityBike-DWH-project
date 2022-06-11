@@ -1,0 +1,2577 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0525.0851                               -->
+<workbook original-version='18.1' source-build='2022.1.2 (20221.22.0525.0851)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelRelationshipPerfOptions.true...ObjectModelRelationshipPerfOptions />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Bike_Dim (CityBikesDWH)' inline='true' name='federated.1t338so1xcvooh111m7by0ljl5ik' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='DESKTOP-RKDR4L0' name='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y'>
+            <connection authentication='sspi' class='sqlserver' dbname='CityBikesDWH' minimum-driver-version='SQL Server Native Client 10.0' odbc-native-protocol='yes' one-time-sql='' server='DESKTOP-RKDR4L0' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y' name='Bike_Dim' table='[dbo].[Bike_Dim]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y' name='Hire_Fact' table='[dbo].[Hire_Fact]' type='table' />
+          <relation connection='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y' name='Bike_Dim' table='[dbo].[Bike_Dim]' type='table' />
+          <relation connection='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y' name='Date_Dim' table='[dbo].[Date_Dim]' type='table' />
+          <relation connection='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y' name='Date_Dim1' table='[dbo].[Date_Dim]' type='table' />
+          <relation connection='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y' name='Station_Dim1' table='[dbo].[Station_Dim]' type='table' />
+          <relation connection='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y' name='Station_Dim' table='[dbo].[Station_Dim]' type='table' />
+          <relation connection='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y' name='Weather_Dim' table='[dbo].[Weather_Dim]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[BikeID (Bike_Dim)]' value='[Bike_Dim].[BikeID]' />
+          <map key='[BikeID]' value='[Hire_Fact].[BikeID]' />
+          <map key='[BikeType]' value='[Bike_Dim].[BikeType]' />
+          <map key='[BirthYear]' value='[Hire_Fact].[BirthYear]' />
+          <map key='[CloudCover]' value='[Weather_Dim].[CloudCover]' />
+          <map key='[Conditions]' value='[Weather_Dim].[Conditions]' />
+          <map key='[DOWInMonth (Date_Dim1)]' value='[Date_Dim1].[DOWInMonth]' />
+          <map key='[DOWInMonth]' value='[Date_Dim].[DOWInMonth]' />
+          <map key='[Date (Date_Dim)]' value='[Date_Dim].[Date]' />
+          <map key='[Date (Date_Dim1)]' value='[Date_Dim1].[Date]' />
+          <map key='[DateID (Date_Dim)]' value='[Date_Dim].[DateID]' />
+          <map key='[DateID (Date_Dim1)]' value='[Date_Dim1].[DateID]' />
+          <map key='[DateID]' value='[Weather_Dim].[DateID]' />
+          <map key='[Date]' value='[Weather_Dim].[Date]' />
+          <map key='[Day (Date_Dim1)]' value='[Date_Dim1].[Day]' />
+          <map key='[DayOfYear (Date_Dim1)]' value='[Date_Dim1].[DayOfYear]' />
+          <map key='[DayOfYear]' value='[Date_Dim].[DayOfYear]' />
+          <map key='[DaySuffix (Date_Dim1)]' value='[Date_Dim1].[DaySuffix]' />
+          <map key='[DaySuffix]' value='[Date_Dim].[DaySuffix]' />
+          <map key='[Day]' value='[Date_Dim].[Day]' />
+          <map key='[EndDateID]' value='[Hire_Fact].[EndDateID]' />
+          <map key='[EndStationID]' value='[Hire_Fact].[EndStationID]' />
+          <map key='[EndTime]' value='[Hire_Fact].[EndTime]' />
+          <map key='[FeelsLikeTemperature]' value='[Weather_Dim].[FeelsLikeTemperature]' />
+          <map key='[FirstDayOfMonth (Date_Dim1)]' value='[Date_Dim1].[FirstDayOfMonth]' />
+          <map key='[FirstDayOfMonth]' value='[Date_Dim].[FirstDayOfMonth]' />
+          <map key='[FirstDayOfNextMonth (Date_Dim1)]' value='[Date_Dim1].[FirstDayOfNextMonth]' />
+          <map key='[FirstDayOfNextMonth]' value='[Date_Dim].[FirstDayOfNextMonth]' />
+          <map key='[FirstDayOfNextYear (Date_Dim1)]' value='[Date_Dim1].[FirstDayOfNextYear]' />
+          <map key='[FirstDayOfNextYear]' value='[Date_Dim].[FirstDayOfNextYear]' />
+          <map key='[FirstDayOfQuarter (Date_Dim1)]' value='[Date_Dim1].[FirstDayOfQuarter]' />
+          <map key='[FirstDayOfQuarter]' value='[Date_Dim].[FirstDayOfQuarter]' />
+          <map key='[FirstDayOfYear (Date_Dim1)]' value='[Date_Dim1].[FirstDayOfYear]' />
+          <map key='[FirstDayOfYear]' value='[Date_Dim].[FirstDayOfYear]' />
+          <map key='[Gender]' value='[Hire_Fact].[Gender]' />
+          <map key='[HireID]' value='[Hire_Fact].[HireID]' />
+          <map key='[HolidayText (Date_Dim1)]' value='[Date_Dim1].[HolidayText]' />
+          <map key='[HolidayText]' value='[Date_Dim].[HolidayText]' />
+          <map key='[ISOWeekOfYear (Date_Dim1)]' value='[Date_Dim1].[ISOWeekOfYear]' />
+          <map key='[ISOWeekOfYear]' value='[Date_Dim].[ISOWeekOfYear]' />
+          <map key='[IsHoliday (Date_Dim1)]' value='[Date_Dim1].[IsHoliday]' />
+          <map key='[IsHoliday]' value='[Date_Dim].[IsHoliday]' />
+          <map key='[IsOtherPrecipitation]' value='[Weather_Dim].[IsOtherPrecipitation]' />
+          <map key='[IsRain]' value='[Weather_Dim].[IsRain]' />
+          <map key='[IsSnow]' value='[Weather_Dim].[IsSnow]' />
+          <map key='[IsWeekend (Date_Dim1)]' value='[Date_Dim1].[IsWeekend]' />
+          <map key='[IsWeekend]' value='[Date_Dim].[IsWeekend]' />
+          <map key='[LastDayOfMonth (Date_Dim1)]' value='[Date_Dim1].[LastDayOfMonth]' />
+          <map key='[LastDayOfMonth]' value='[Date_Dim].[LastDayOfMonth]' />
+          <map key='[LastDayOfQuarter (Date_Dim1)]' value='[Date_Dim1].[LastDayOfQuarter]' />
+          <map key='[LastDayOfQuarter]' value='[Date_Dim].[LastDayOfQuarter]' />
+          <map key='[LastDayOfYear (Date_Dim1)]' value='[Date_Dim1].[LastDayOfYear]' />
+          <map key='[LastDayOfYear]' value='[Date_Dim].[LastDayOfYear]' />
+          <map key='[LastServiceDate]' value='[Bike_Dim].[LastServiceDate]' />
+          <map key='[Latitude (Station_Dim1)]' value='[Station_Dim1].[Latitude]' />
+          <map key='[Latitude]' value='[Station_Dim].[Latitude]' />
+          <map key='[LocalizationName]' value='[Weather_Dim].[LocalizationName]' />
+          <map key='[Longitude (Station_Dim1)]' value='[Station_Dim1].[Longitude]' />
+          <map key='[Longitude]' value='[Station_Dim].[Longitude]' />
+          <map key='[MMYYYY (Date_Dim1)]' value='[Date_Dim1].[MMYYYY]' />
+          <map key='[MMYYYY]' value='[Date_Dim].[MMYYYY]' />
+          <map key='[Month (Date_Dim1)]' value='[Date_Dim1].[Month]' />
+          <map key='[MonthName (Date_Dim1)]' value='[Date_Dim1].[MonthName]' />
+          <map key='[MonthName]' value='[Date_Dim].[MonthName]' />
+          <map key='[MonthYear (Date_Dim1)]' value='[Date_Dim1].[MonthYear]' />
+          <map key='[MonthYear]' value='[Date_Dim].[MonthYear]' />
+          <map key='[Month]' value='[Date_Dim].[Month]' />
+          <map key='[Neighborhood (Station_Dim1)]' value='[Station_Dim1].[Neighborhood]' />
+          <map key='[Neighborhood]' value='[Station_Dim].[Neighborhood]' />
+          <map key='[Precipitation]' value='[Weather_Dim].[Precipitation]' />
+          <map key='[Quarter (Date_Dim1)]' value='[Date_Dim1].[Quarter]' />
+          <map key='[QuarterName (Date_Dim1)]' value='[Date_Dim1].[QuarterName]' />
+          <map key='[QuarterName]' value='[Date_Dim].[QuarterName]' />
+          <map key='[Quarter]' value='[Date_Dim].[Quarter]' />
+          <map key='[Road (Station_Dim1)]' value='[Station_Dim1].[Road]' />
+          <map key='[Road]' value='[Station_Dim].[Road]' />
+          <map key='[StartDateID]' value='[Hire_Fact].[StartDateID]' />
+          <map key='[StartStationID]' value='[Hire_Fact].[StartStationID]' />
+          <map key='[StartTime]' value='[Hire_Fact].[StartTime]' />
+          <map key='[StationID (Station_Dim1)]' value='[Station_Dim1].[StationID]' />
+          <map key='[StationID]' value='[Station_Dim].[StationID]' />
+          <map key='[StationName (Station_Dim1)]' value='[Station_Dim1].[StationName]' />
+          <map key='[StationName]' value='[Station_Dim].[StationName]' />
+          <map key='[Suburb (Station_Dim1)]' value='[Station_Dim1].[Suburb]' />
+          <map key='[Suburb]' value='[Station_Dim].[Suburb]' />
+          <map key='[Temperature]' value='[Weather_Dim].[Temperature]' />
+          <map key='[TripDistance]' value='[Hire_Fact].[TripDistance]' />
+          <map key='[TripDuration]' value='[Hire_Fact].[TripDuration]' />
+          <map key='[Usertype]' value='[Hire_Fact].[Usertype]' />
+          <map key='[WeekDayName (Date_Dim1)]' value='[Date_Dim1].[WeekDayName]' />
+          <map key='[WeekDayName]' value='[Date_Dim].[WeekDayName]' />
+          <map key='[WeekOfMonth (Date_Dim1)]' value='[Date_Dim1].[WeekOfMonth]' />
+          <map key='[WeekOfMonth]' value='[Date_Dim].[WeekOfMonth]' />
+          <map key='[WeekOfYear (Date_Dim1)]' value='[Date_Dim1].[WeekOfYear]' />
+          <map key='[WeekOfYear]' value='[Date_Dim].[WeekOfYear]' />
+          <map key='[Weekday (Date_Dim1)]' value='[Date_Dim1].[Weekday]' />
+          <map key='[Weekday]' value='[Date_Dim].[Weekday]' />
+          <map key='[Windspeed]' value='[Weather_Dim].[Windspeed]' />
+          <map key='[Year (Date_Dim1)]' value='[Date_Dim1].[Year]' />
+          <map key='[Year]' value='[Date_Dim].[Year]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>HireID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[HireID]</local-name>
+            <parent-name>[Hire_Fact]</parent-name>
+            <remote-alias>HireID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StartTime</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[StartTime]</local-name>
+            <parent-name>[Hire_Fact]</parent-name>
+            <remote-alias>StartTime</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EndTime</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[EndTime]</local-name>
+            <parent-name>[Hire_Fact]</parent-name>
+            <remote-alias>EndTime</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StartStationID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[StartStationID]</local-name>
+            <parent-name>[Hire_Fact]</parent-name>
+            <remote-alias>StartStationID</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EndStationID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[EndStationID]</local-name>
+            <parent-name>[Hire_Fact]</parent-name>
+            <remote-alias>EndStationID</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TripDuration</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[TripDuration]</local-name>
+            <parent-name>[Hire_Fact]</parent-name>
+            <remote-alias>TripDuration</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TripDistance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TripDistance]</local-name>
+            <parent-name>[Hire_Fact]</parent-name>
+            <remote-alias>TripDistance</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Hire_Fact]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BirthYear</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[BirthYear]</local-name>
+            <parent-name>[Hire_Fact]</parent-name>
+            <remote-alias>BirthYear</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Usertype</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Usertype]</local-name>
+            <parent-name>[Hire_Fact]</parent-name>
+            <remote-alias>Usertype</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BikeID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[BikeID]</local-name>
+            <parent-name>[Hire_Fact]</parent-name>
+            <remote-alias>BikeID</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StartDateID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[StartDateID]</local-name>
+            <parent-name>[Hire_Fact]</parent-name>
+            <remote-alias>StartDateID</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EndDateID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[EndDateID]</local-name>
+            <parent-name>[Hire_Fact]</parent-name>
+            <remote-alias>EndDateID</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BikeID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[BikeID (Bike_Dim)]</local-name>
+            <parent-name>[Bike_Dim]</parent-name>
+            <remote-alias>BikeID</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike_Dim_FF8ECD3ABCAD4AF19A9F17BFC784B9CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BikeType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BikeType]</local-name>
+            <parent-name>[Bike_Dim]</parent-name>
+            <remote-alias>BikeType</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike_Dim_FF8ECD3ABCAD4AF19A9F17BFC784B9CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastServiceDate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[LastServiceDate]</local-name>
+            <parent-name>[Bike_Dim]</parent-name>
+            <remote-alias>LastServiceDate</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bike_Dim_FF8ECD3ABCAD4AF19A9F17BFC784B9CD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[DateID (Date_Dim)]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>DateID</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date (Date_Dim)]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Day</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[Day]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>Day</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DaySuffix</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DaySuffix]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>DaySuffix</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_CHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weekday</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[Weekday]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>Weekday</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WeekDayName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WeekDayName]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>WeekDayName</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>10</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsWeekend</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[IsWeekend]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>IsWeekend</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_BIT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsHoliday</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[IsHoliday]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>IsHoliday</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_BIT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HolidayText</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HolidayText]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>HolidayText</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>64</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DOWInMonth</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[DOWInMonth]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>DOWInMonth</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DayOfYear</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[DayOfYear]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>DayOfYear</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>5</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_SMALLINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SSHORT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WeekOfMonth</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[WeekOfMonth]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>WeekOfMonth</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WeekOfYear</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[WeekOfYear]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>WeekOfYear</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ISOWeekOfYear</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[ISOWeekOfYear]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>ISOWeekOfYear</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MonthName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MonthName]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>MonthName</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>10</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quarter</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[Quarter]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>Quarter</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QuarterName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QuarterName]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>QuarterName</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>6</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MMYYYY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MMYYYY]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>MMYYYY</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>6</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_CHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MonthYear</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MonthYear]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>MonthYear</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>7</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_CHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FirstDayOfMonth</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[FirstDayOfMonth]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>FirstDayOfMonth</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastDayOfMonth</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[LastDayOfMonth]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>LastDayOfMonth</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FirstDayOfQuarter</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[FirstDayOfQuarter]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>FirstDayOfQuarter</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastDayOfQuarter</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[LastDayOfQuarter]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>LastDayOfQuarter</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FirstDayOfYear</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[FirstDayOfYear]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>FirstDayOfYear</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastDayOfYear</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[LastDayOfYear]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>LastDayOfYear</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FirstDayOfNextMonth</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[FirstDayOfNextMonth]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>FirstDayOfNextMonth</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FirstDayOfNextYear</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[FirstDayOfNextYear]</local-name>
+            <parent-name>[Date_Dim]</parent-name>
+            <remote-alias>FirstDayOfNextYear</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[DateID (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>DateID</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Day</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[Day (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>Day</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DaySuffix</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DaySuffix (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>DaySuffix</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_CHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weekday</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[Weekday (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>Weekday</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WeekDayName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WeekDayName (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>WeekDayName</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>10</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsWeekend</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[IsWeekend (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>IsWeekend</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_BIT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsHoliday</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[IsHoliday (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>IsHoliday</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_BIT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HolidayText</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HolidayText (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>HolidayText</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>64</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DOWInMonth</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[DOWInMonth (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>DOWInMonth</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DayOfYear</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[DayOfYear (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>DayOfYear</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>5</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_SMALLINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SSHORT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WeekOfMonth</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[WeekOfMonth (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>WeekOfMonth</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WeekOfYear</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[WeekOfYear (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>WeekOfYear</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ISOWeekOfYear</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[ISOWeekOfYear (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>ISOWeekOfYear</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[Month (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MonthName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MonthName (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>MonthName</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>10</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quarter</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[Quarter (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>Quarter</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QuarterName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QuarterName (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>QuarterName</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>6</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Year (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MMYYYY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MMYYYY (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>MMYYYY</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>6</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_CHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MonthYear</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MonthYear (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>MonthYear</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>7</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_CHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FirstDayOfMonth</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[FirstDayOfMonth (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>FirstDayOfMonth</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastDayOfMonth</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[LastDayOfMonth (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>LastDayOfMonth</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FirstDayOfQuarter</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[FirstDayOfQuarter (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>FirstDayOfQuarter</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastDayOfQuarter</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[LastDayOfQuarter (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>LastDayOfQuarter</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FirstDayOfYear</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[FirstDayOfYear (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>FirstDayOfYear</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastDayOfYear</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[LastDayOfYear (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>LastDayOfYear</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FirstDayOfNextMonth</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[FirstDayOfNextMonth (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>FirstDayOfNextMonth</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FirstDayOfNextYear</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[FirstDayOfNextYear (Date_Dim1)]</local-name>
+            <parent-name>[Date_Dim1]</parent-name>
+            <remote-alias>FirstDayOfNextYear</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StationID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[StationID (Station_Dim1)]</local-name>
+            <parent-name>[Station_Dim1]</parent-name>
+            <remote-alias>StationID</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Station_Dim_67545D9E91DC47089D433D0FE8AA9A46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StationName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[StationName (Station_Dim1)]</local-name>
+            <parent-name>[Station_Dim1]</parent-name>
+            <remote-alias>StationName</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Station_Dim_67545D9E91DC47089D433D0FE8AA9A46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude (Station_Dim1)]</local-name>
+            <parent-name>[Station_Dim1]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Station_Dim_67545D9E91DC47089D433D0FE8AA9A46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude (Station_Dim1)]</local-name>
+            <parent-name>[Station_Dim1]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Station_Dim_67545D9E91DC47089D433D0FE8AA9A46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neighborhood</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Neighborhood (Station_Dim1)]</local-name>
+            <parent-name>[Station_Dim1]</parent-name>
+            <remote-alias>Neighborhood</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Station_Dim_67545D9E91DC47089D433D0FE8AA9A46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Road</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Road (Station_Dim1)]</local-name>
+            <parent-name>[Station_Dim1]</parent-name>
+            <remote-alias>Road</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Station_Dim_67545D9E91DC47089D433D0FE8AA9A46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Suburb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Suburb (Station_Dim1)]</local-name>
+            <parent-name>[Station_Dim1]</parent-name>
+            <remote-alias>Suburb</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Station_Dim_67545D9E91DC47089D433D0FE8AA9A46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StationID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[StationID]</local-name>
+            <parent-name>[Station_Dim]</parent-name>
+            <remote-alias>StationID</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Station_Dim_F442CDC452DE4502957F6B8997150A00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StationName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[StationName]</local-name>
+            <parent-name>[Station_Dim]</parent-name>
+            <remote-alias>StationName</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Station_Dim_F442CDC452DE4502957F6B8997150A00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[Station_Dim]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Station_Dim_F442CDC452DE4502957F6B8997150A00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[Station_Dim]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Station_Dim_F442CDC452DE4502957F6B8997150A00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neighborhood</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Neighborhood]</local-name>
+            <parent-name>[Station_Dim]</parent-name>
+            <remote-alias>Neighborhood</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Station_Dim_F442CDC452DE4502957F6B8997150A00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Road</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Road]</local-name>
+            <parent-name>[Station_Dim]</parent-name>
+            <remote-alias>Road</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Station_Dim_F442CDC452DE4502957F6B8997150A00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Suburb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Suburb]</local-name>
+            <parent-name>[Station_Dim]</parent-name>
+            <remote-alias>Suburb</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Station_Dim_F442CDC452DE4502957F6B8997150A00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[DateID]</local-name>
+            <parent-name>[Weather_Dim]</parent-name>
+            <remote-alias>DateID</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weather_Dim_5C7BFEC61B334C30982334F0C3787A66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LocalizationName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LocalizationName]</local-name>
+            <parent-name>[Weather_Dim]</parent-name>
+            <remote-alias>LocalizationName</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weather_Dim_5C7BFEC61B334C30982334F0C3787A66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Weather_Dim]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weather_Dim_5C7BFEC61B334C30982334F0C3787A66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temperature</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Temperature]</local-name>
+            <parent-name>[Weather_Dim]</parent-name>
+            <remote-alias>Temperature</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weather_Dim_5C7BFEC61B334C30982334F0C3787A66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FeelsLikeTemperature</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FeelsLikeTemperature]</local-name>
+            <parent-name>[Weather_Dim]</parent-name>
+            <remote-alias>FeelsLikeTemperature</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weather_Dim_5C7BFEC61B334C30982334F0C3787A66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Precipitation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Precipitation]</local-name>
+            <parent-name>[Weather_Dim]</parent-name>
+            <remote-alias>Precipitation</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weather_Dim_5C7BFEC61B334C30982334F0C3787A66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsRain</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[IsRain]</local-name>
+            <parent-name>[Weather_Dim]</parent-name>
+            <remote-alias>IsRain</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weather_Dim_5C7BFEC61B334C30982334F0C3787A66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Windspeed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Windspeed]</local-name>
+            <parent-name>[Weather_Dim]</parent-name>
+            <remote-alias>Windspeed</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weather_Dim_5C7BFEC61B334C30982334F0C3787A66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CloudCover</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CloudCover]</local-name>
+            <parent-name>[Weather_Dim]</parent-name>
+            <remote-alias>CloudCover</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weather_Dim_5C7BFEC61B334C30982334F0C3787A66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conditions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Conditions]</local-name>
+            <parent-name>[Weather_Dim]</parent-name>
+            <remote-alias>Conditions</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weather_Dim_5C7BFEC61B334C30982334F0C3787A66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsSnow</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[IsSnow]</local-name>
+            <parent-name>[Weather_Dim]</parent-name>
+            <remote-alias>IsSnow</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weather_Dim_5C7BFEC61B334C30982334F0C3787A66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsOtherPrecipitation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[IsOtherPrecipitation]</local-name>
+            <parent-name>[Weather_Dim]</parent-name>
+            <remote-alias>IsOtherPrecipitation</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Weather_Dim_5C7BFEC61B334C30982334F0C3787A66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' name='[BikeID (Bike_Dim)]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[BikeID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[BirthYear]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[DOWInMonth (Date_Dim1)]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[DOWInMonth]' role='dimension' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[DateID (Date_Dim)]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[DateID (Date_Dim1)]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[DateID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Day (Date_Dim1)]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[DayOfYear (Date_Dim1)]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[DayOfYear]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Day]' role='dimension' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[EndDateID]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[EndStationID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[HireID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[ISOWeekOfYear (Date_Dim1)]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[ISOWeekOfYear]' role='dimension' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Latitude (Station_Dim1)]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Longitude (Station_Dim1)]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column datatype='integer' name='[Month (Date_Dim1)]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Quarter (Date_Dim1)]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Quarter]' role='dimension' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[StartDateID]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[StartStationID]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[StationID (Station_Dim1)]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[StationID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[TripDuration]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[WeekOfMonth (Date_Dim1)]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[WeekOfMonth]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[WeekOfYear (Date_Dim1)]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[WeekOfYear]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Year (Date_Dim1)]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Bike_Dim' datatype='table' name='[__tableau_internal_object_id__].[Bike_Dim_FF8ECD3ABCAD4AF19A9F17BFC784B9CD]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Start_Date_Dim' datatype='table' name='[__tableau_internal_object_id__].[Date_Dim_57BDAC403F80403F93421B9E7EB81F70]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='End_Date_Dim' datatype='table' name='[__tableau_internal_object_id__].[Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Hire_Fact' datatype='table' name='[__tableau_internal_object_id__].[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='End_Station_Dim' datatype='table' name='[__tableau_internal_object_id__].[Station_Dim_67545D9E91DC47089D433D0FE8AA9A46]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Start_Station_Dim' datatype='table' name='[__tableau_internal_object_id__].[Station_Dim_F442CDC452DE4502957F6B8997150A00]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Weather_Dim' datatype='table' name='[__tableau_internal_object_id__].[Weather_Dim_5C7BFEC61B334C30982334F0C3787A66]' role='measure' type='quantitative' />
+      <column-instance column='[Latitude]' derivation='Avg' name='[avg:Latitude:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Longitude]' derivation='Avg' name='[avg:Longitude:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TripDuration]' derivation='Avg' name='[avg:TripDuration:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Latitude]' derivation='Count' name='[cnt:Latitude:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Longitude]' derivation='Count' name='[cnt:Longitude:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[BikeID (Bike_Dim)]' derivation='None' name='[none:BikeID (Bike_Dim):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[TripDuration]' derivation='Sum' name='[sum:TripDuration:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1t338so1xcvooh111m7by0ljl5ik].[avg:Latitude:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1t338so1xcvooh111m7by0ljl5ik].[cnt:Latitude:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1t338so1xcvooh111m7by0ljl5ik].[avg:TripDuration:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1t338so1xcvooh111m7by0ljl5ik]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1t338so1xcvooh111m7by0ljl5ik].[__tableau_internal_object_id__].[cnt:Station_Dim_06B8EE713CC04315AE19B056A9A83AC7:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1t338so1xcvooh111m7by0ljl5ik].[sum:TripDuration:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1t338so1xcvooh111m7by0ljl5ik].[avg:Longitude:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1t338so1xcvooh111m7by0ljl5ik].[cnt:Longitude:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:BikeID (Bike_Dim):ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>39394</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>39098</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>39721</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>38888</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>39830</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>35384</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>39140</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>39151</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>39229</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>38209</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>39740</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>39805</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>39435</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>38344</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>38771</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>38172</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>39735</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>39213</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>39106</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>39453</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Poland&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Bike_Dim' id='Bike_Dim_FF8ECD3ABCAD4AF19A9F17BFC784B9CD'>
+            <properties context=''>
+              <relation connection='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y' name='Bike_Dim' table='[dbo].[Bike_Dim]' type='table' />
+            </properties>
+          </object>
+          <object caption='Start_Date_Dim' id='Date_Dim_57BDAC403F80403F93421B9E7EB81F70'>
+            <properties context=''>
+              <relation connection='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y' name='Date_Dim' table='[dbo].[Date_Dim]' type='table' />
+            </properties>
+          </object>
+          <object caption='End_Date_Dim' id='Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA'>
+            <properties context=''>
+              <relation connection='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y' name='Date_Dim1' table='[dbo].[Date_Dim]' type='table' />
+            </properties>
+          </object>
+          <object caption='Hire_Fact' id='Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199'>
+            <properties context=''>
+              <relation connection='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y' name='Hire_Fact' table='[dbo].[Hire_Fact]' type='table' />
+            </properties>
+          </object>
+          <object caption='End_Station_Dim' id='Station_Dim_67545D9E91DC47089D433D0FE8AA9A46'>
+            <properties context=''>
+              <relation connection='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y' name='Station_Dim1' table='[dbo].[Station_Dim]' type='table' />
+            </properties>
+          </object>
+          <object caption='Start_Station_Dim' id='Station_Dim_F442CDC452DE4502957F6B8997150A00'>
+            <properties context=''>
+              <relation connection='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y' name='Station_Dim' table='[dbo].[Station_Dim]' type='table' />
+            </properties>
+          </object>
+          <object caption='Weather_Dim' id='Weather_Dim_5C7BFEC61B334C30982334F0C3787A66'>
+            <properties context=''>
+              <relation connection='sqlserver.0jn89cw0s4dtsg191jqtc12wip4y' name='Weather_Dim' table='[dbo].[Weather_Dim]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[BikeID]' />
+              <expression op='[BikeID (Bike_Dim)]' />
+            </expression>
+            <first-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-guaranteed-value='true' guaranteed-value='true' object-id='Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199' />
+            <second-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-unique-key='true' object-id='Bike_Dim_FF8ECD3ABCAD4AF19A9F17BFC784B9CD' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[StartDateID]' />
+              <expression op='[DateID (Date_Dim)]' />
+            </expression>
+            <first-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-guaranteed-value='true' guaranteed-value='true' object-id='Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199' />
+            <second-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-unique-key='true' object-id='Date_Dim_57BDAC403F80403F93421B9E7EB81F70' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[EndDateID]' />
+              <expression op='[DateID (Date_Dim1)]' />
+            </expression>
+            <first-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-guaranteed-value='true' guaranteed-value='true' object-id='Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199' />
+            <second-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-unique-key='true' object-id='Date_Dim_E6EDD5AE04AB49F2A2AE103E0CA203BA' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[EndStationID]' />
+              <expression op='[StationID (Station_Dim1)]' />
+            </expression>
+            <first-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-guaranteed-value='true' guaranteed-value='true' object-id='Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199' />
+            <second-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-unique-key='true' object-id='Station_Dim_67545D9E91DC47089D433D0FE8AA9A46' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[StartStationID]' />
+              <expression op='[StationID]' />
+            </expression>
+            <first-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-guaranteed-value='true' guaranteed-value='true' object-id='Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199' />
+            <second-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-unique-key='true' object-id='Station_Dim_F442CDC452DE4502957F6B8997150A00' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[StartDateID]' />
+              <expression op='[DateID]' />
+            </expression>
+            <first-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-guaranteed-value='true' guaranteed-value='true' object-id='Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199' />
+            <second-end-point _.fcp.ObjectModelRelationshipPerfOptions.true...is-db-set-unique-key='true' object-id='Weather_Dim_5C7BFEC61B334C30982334F0C3787A66' unique-key='true' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Bike_Dim (CityBikesDWH)' name='federated.1t338so1xcvooh111m7by0ljl5ik' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1t338so1xcvooh111m7by0ljl5ik'>
+            <column aggregation='Sum' datatype='integer' name='[BikeID (Bike_Dim)]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[BikeType]' role='dimension' type='nominal' />
+            <column datatype='real' name='[TripDistance]' role='measure' type='quantitative' />
+            <column-instance column='[BikeID (Bike_Dim)]' derivation='None' name='[none:BikeID (Bike_Dim):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[BikeType]' derivation='None' name='[none:BikeType:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TripDistance]' derivation='Sum' name='[sum:TripDistance:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1t338so1xcvooh111m7by0ljl5ik].[none:BikeID (Bike_Dim):ok]'>
+            <groupfilter count='20' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([TripDistance])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:BikeID (Bike_Dim):ok]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.1t338so1xcvooh111m7by0ljl5ik].[none:BikeID (Bike_Dim):ok]' direction='DESC' using='[federated.1t338so1xcvooh111m7by0ljl5ik].[sum:TripDistance:qk]' />
+          <slices>
+            <column>[federated.1t338so1xcvooh111m7by0ljl5ik].[none:BikeID (Bike_Dim):ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1t338so1xcvooh111m7by0ljl5ik].[sum:TripDistance:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='text-align' value='auto' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1t338so1xcvooh111m7by0ljl5ik].[none:BikeType:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1t338so1xcvooh111m7by0ljl5ik].[none:BikeID (Bike_Dim):ok]</rows>
+        <cols>[federated.1t338so1xcvooh111m7by0ljl5ik].[sum:TripDistance:qk]</cols>
+      </table>
+      <simple-id uuid='{B99E8B9D-C6EB-49BE-AA61-ECB85F9F76CE}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Bike_Dim (CityBikesDWH)' name='federated.1t338so1xcvooh111m7by0ljl5ik' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1t338so1xcvooh111m7by0ljl5ik'>
+            <column aggregation='Avg' datatype='real' name='[Latitude (Station_Dim1)]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='Hire_Fact' datatype='integer' name='[__tableau_internal_object_id__].[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]' role='measure' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Longitude (Station_Dim1)]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Hire_Fact' datatype='table' name='[__tableau_internal_object_id__].[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Latitude (Station_Dim1)]' derivation='None' name='[none:Latitude (Station_Dim1):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Longitude (Station_Dim1)]' derivation='None' name='[none:Longitude (Station_Dim1):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1t338so1xcvooh111m7by0ljl5ik].[none:Longitude (Station_Dim1):qk]' field-type='quantitative' max='-8221262.7621994046' min='-8255431.2614743784' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1t338so1xcvooh111m7by0ljl5ik].[none:Latitude (Station_Dim1):qk]' field-type='quantitative' max='5000967.2015671423' min='4950174.2764875703' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1t338so1xcvooh111m7by0ljl5ik].[__tableau_internal_object_id__].[cnt:Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199:qk]' min='100' palette='red_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1t338so1xcvooh111m7by0ljl5ik].[__tableau_internal_object_id__].[cnt:Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199:qk]' />
+              <size column='[federated.1t338so1xcvooh111m7by0ljl5ik].[__tableau_internal_object_id__].[cnt:Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1t338so1xcvooh111m7by0ljl5ik].[none:Latitude (Station_Dim1):qk]</rows>
+        <cols>[federated.1t338so1xcvooh111m7by0ljl5ik].[none:Longitude (Station_Dim1):qk]</cols>
+      </table>
+      <simple-id uuid='{B49F4254-2A55-40C8-850C-6D4EA97387AD}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Bike_Dim (CityBikesDWH)' name='federated.1t338so1xcvooh111m7by0ljl5ik' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t338so1xcvooh111m7by0ljl5ik'>
+            <column datatype='integer' name='[TripDuration]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Usertype]' role='dimension' type='nominal' />
+            <column datatype='string' name='[WeekDayName (Date_Dim1)]' role='dimension' type='nominal' />
+            <column-instance column='[TripDuration]' derivation='Avg' name='[avg:TripDuration:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Usertype]' derivation='None' name='[none:Usertype:nk]' pivot='key' type='nominal' />
+            <column-instance column='[WeekDayName (Date_Dim1)]' derivation='None' name='[none:WeekDayName (Date_Dim1):nk]' pivot='key' type='nominal' />
+            <column-instance column='[TripDuration]' derivation='Sum' name='[sum:TripDuration:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1t338so1xcvooh111m7by0ljl5ik].[none:Usertype:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1t338so1xcvooh111m7by0ljl5ik].[avg:TripDuration:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1t338so1xcvooh111m7by0ljl5ik].[none:Usertype:nk]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1t338so1xcvooh111m7by0ljl5ik].[sum:TripDuration:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1t338so1xcvooh111m7by0ljl5ik].[none:Usertype:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1t338so1xcvooh111m7by0ljl5ik].[none:WeekDayName (Date_Dim1):nk] / [federated.1t338so1xcvooh111m7by0ljl5ik].[none:Usertype:nk])</rows>
+        <cols>([federated.1t338so1xcvooh111m7by0ljl5ik].[avg:TripDuration:qk] + [federated.1t338so1xcvooh111m7by0ljl5ik].[sum:TripDuration:qk])</cols>
+      </table>
+      <simple-id uuid='{4B4BFFBF-5B59-40B1-A6A6-81C25714AB1F}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='21' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='19' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+              <zone h='98000' id='14' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='98000' id='11' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                  <zone h='98000' id='8' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                    <zone h='98000' id='6' type-v2='layout-basic' w='98400' x='800' y='1000'>
+                      <zone h='88623' id='3' name='Sheet 1' w='49200' x='800' y='1000'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='98000' id='12' name='Sheet 2' w='49200' x='50000' y='1000'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='9377' id='17' name='Sheet 1' pane-specification-id='0' param='[federated.1t338so1xcvooh111m7by0ljl5ik].[none:BikeType:nk]' type-v2='color' w='49200' x='800' y='89623'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97714' id='22' param='vert' type-v2='layout-flow' w='95734' x='2133' y='1143'>
+                <zone fixed-size='280' h='41143' id='3' is-fixed='true' name='Sheet 1' w='95734' x='2133' y='1143'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='15428' id='17' name='Sheet 1' pane-specification-id='0' param='[federated.1t338so1xcvooh111m7by0ljl5ik].[none:BikeType:nk]' type-v2='color' w='95734' x='2133' y='42286'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41143' id='12' is-fixed='true' name='Sheet 2' w='95734' x='2133' y='57714'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{FA526E83-BE9B-4F57-A4ED-1C88CB85C660}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='5187' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='6017' />
+            <zone h='82676' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='16494'>
+              <flipboard active-id='2' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='Sheet 2' id='1'>
+                    <capturedDeltas>
+                      <worksheet name='Sheet 2'>
+                        <style delta-type='added'>
+                          <style-rule element='axis'>
+                            <encoding attr='space' class='0' field='[federated.1t338so1xcvooh111m7by0ljl5ik].[none:Latitude (Station_Dim1):qk]' field-type='quantitative' max='4988165.8556902232' min='4952934.3129230747' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+                            <encoding attr='space' class='0' field='[federated.1t338so1xcvooh111m7by0ljl5ik].[none:Longitude (Station_Dim1):qk]' field-type='quantitative' max='-8222318.8424449619' min='-8259492.6372525981' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                          </style-rule>
+                        </style>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point captured-sheet='Sheet 1' id='2' />
+                  <story-point captured-sheet='Sheet 3' id='3' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{64DD40C6-E8E6-4F66-8FEC-4FF07C76B579}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='marks' />
+            <card type='filters' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1t338so1xcvooh111m7by0ljl5ik].[none:BikeType:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{26F5FD3D-4FDC-418D-AC93-093659A0F06B}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1t338so1xcvooh111m7by0ljl5ik].[__tableau_internal_object_id__].[cnt:Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199:qk]' type='size' />
+            <card pane-specification-id='0' param='[federated.1t338so1xcvooh111m7by0ljl5ik].[__tableau_internal_object_id__].[cnt:Hire_Fact_9E656C0A6C7744E3B48FE2A106B81199:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B8460C81-77EF-41FE-BC12-BFDDBAD69BBF}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1t338so1xcvooh111m7by0ljl5ik].[none:Usertype:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>&quot;Customer&quot;</bucket>
+          </multibucket>
+        </current-page>
+      </viewpoint>
+      <simple-id uuid='{F37DF5E0-F3AF-4FDC-BE18-2942317CAAF2}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1' />
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='21' />
+      <simple-id uuid='{2573CDA0-8BCE-432B-A876-9DFA79E607B7}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{A1ECEABF-43E2-4C33-BC07-7B9491039639}' />
+    </window>
+  </windows>
+</workbook>
