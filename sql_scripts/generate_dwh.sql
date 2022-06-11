@@ -114,8 +114,7 @@ LastDayOfQuarter DATE NOT NULL,
 FirstDayOfYear DATE NOT NULL,
 LastDayOfYear DATE NOT NULL,
 FirstDayOfNextMonth DATE NOT NULL,
-FirstDayOfNextYear DATE NOT NULL,
-CONSTRAINT [PK_Date_Dim] PRIMARY KEY NONCLUSTERED ([DateID] ASC)
+FirstDayOfNextYear DATE NOT NULL
 );
 GO
 GO
