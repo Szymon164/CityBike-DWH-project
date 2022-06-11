@@ -1,3 +1,5 @@
+CREATE DATABASE CityBikesDWH
+GO
 USE CityBikesDWH
 GO
 -- ************************************** [Bike_Dim]
@@ -87,7 +89,7 @@ GO
 -- ************************************** [Hire_Fact]
 CREATE TABLE [Hire_Fact]
 (
- [HireID]         int NOT NULL ,
+ [HireID]         int identity(1,1),
  [StartTime]      datetime NOT NULL ,
  [EndTime]        datetime NOT NULL ,
  [StartStationID] int NOT NULL ,
