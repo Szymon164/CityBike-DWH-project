@@ -78,7 +78,7 @@ Drugie źródło danych, z którego korzystamy przy tworzeniu hurtowni to [api p
 ## Opis architektury
 ### Warstwy modelu
 
-![Schemat architektury](arch.png)
+![Schemat architektury](images/arch.png)
 
 Architektura naszego rozwiązania składa się z trzech głównych warstw:
 
@@ -111,7 +111,8 @@ W warstwie ETL będziemy wykonywać następujące przekształcenia:
 
 ### Ostateczny (na ten moment) model hurtowni
 
-![Schemat hurtowni](dwh.png)
+![Schemat hurtowni](images/dwh.png)
+
 
 Tabelą faktów w naszej hurtowni będzie `Hire_Fact`. Oprócz atrybutu faktów i dwóch miar będzie ona zawierać zdegenerowany wymiar użytkownika oraz klucze obce do tabel wymiarów. `StartStationId` oraz `EndStationId` wsakazują na wymiar stacji `Station_Dim`, który zawiera dodatkowo współrzędne geograficzne stacji oraz jej nazwę. `BikeId` łączy tabele fatków z wymiarem `Bike_Dim` zawierającym typ wypożyczonego roweru o oraz datę ostatniego serwisowania. Wymiar `Date_Dim` jest podłączony zarówno do daty wypożyczenia jak i zwrotu roweru. W przypadku wymiarów daty oraz stacji mamy więc do czynienia z role-playing dimension - są one połączone z tabelą faktową więcej niż jednym kluczem obcym. Wymiar `Weather_Dim` jest połączony z tabelą faktową przy użyciu pola `StartDateID`. Podjęliśmy taką decyzję, gdyż to pogoda w czasie wypożyczania roweru ma wpływ na decyzję użytkownika, a więc także na biznes. Zawiera on najważniejsze informacje pogodowe na temat najważniejszych czynników pogodowych, czyli temperatury, realnej i odczuwalnej, rodzaju i intensywności opadów, prędkości wiatru i zachmurzenia.
 
