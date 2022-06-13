@@ -31,3 +31,7 @@ def generate_station_locations(filepath, outfilepath):
     df[["Suburb", "Road", "Neighborhood"]] = addresses[["suburb", "road", "neighbourhood"]]
     df.columns = ["StationID", "StationName", "Latitude", "Longitude", "Suburb", "Road", "Neighborhood"]
     df.to_csv(outfilepath)
+
+generate_station_locations("sample_data\\201906-citibike-tripdata.csv", "sample_data\\201906-stations.csv")
+generate_station_locations("sample_data\\201907-citibike-tripdata.csv", "sample_data\\201907-stations.csv")
+generate_station_locations("sample_data\\201908-citibike-tripdata.csv", "sample_data\\201908-stations.csv")
