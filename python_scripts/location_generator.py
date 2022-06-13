@@ -4,7 +4,7 @@ from geopy.extra.rate_limiter import RateLimiter
 import math 
 
 
-def generate_station_locations(filepath):
+def generate_station_locations(filepath, outfilepath):
     df = pd.read_csv(filepath)
     df2 = df[["start station id", "start station name", "start station latitude", "start station longitude"]]
     df = df[["end station id", "end station name", "end station latitude", "end station longitude"]]
@@ -30,4 +30,4 @@ def generate_station_locations(filepath):
     addresses = pd.DataFrame(list(list_of_addresses))
     df[["Suburb", "Road", "Neighborhood"]] = addresses[["suburb", "road", "neighbourhood"]]
     df.columns = ["StationID", "StationName", "Latitude", "Longitude", "Suburb", "Road", "Neighborhood"]
-    df.to_csv(filepath + "-stations.csv")
+    df.to_csv(outfilepath)
