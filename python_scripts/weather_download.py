@@ -44,4 +44,6 @@ def download_data(start, end):
             writer.writerow(row)
 
 
+download_data("2019-06-01", "2019-06-30")
 download_data("2019-07-01", "2019-07-31")
+download_data("2019-08-01", "2019-08-31")
