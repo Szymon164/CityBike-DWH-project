@@ -8,6 +8,10 @@ Hurtownia ta ma na celu dostarczenie informacji pomagających w podejmowaniu str
 
 Dokładniejszy opis biznesowy, a także opis danych oraz opis projektowanej architektury znajdują się w [dokumentacji projektu](initial_documentation.md).
 
+Plik programu Tableau Prep Builder z procesem ETL, to [ETL.tfl](ETL.tfl)
+
+Plik programu Tableau Desktop z wizualizacjami, to [Raport.twb](Raport.twb)
+
 Przykładowe raporty znajdują się w pliku [Przykładowe_raporty.pdf](Przykładowe_raporty.pdf)
 
 
